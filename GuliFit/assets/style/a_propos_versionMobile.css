@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------HEADER STYLE------------------------------- */
+
+#head {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.7vh 2.7vh;
+}
+
+.menu-burger {
+    position: relative;
+    width: 5.4vh;
+    height: 4.3vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-burger span {
+    position: absolute;
+    width: 100%;
+    height: 0.9vh;
+    background-color: #44B491;
+    border-radius: 0.4vh;
+}
+
+.menu-burger span:nth-child(1) {
+    top: 0;
+    left: 50%;
+}
+.menu-burger span:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.menu-burger span:nth-child(3) {
+    bottom: 0;
+    left: 50%;
+}
+
+#logo img {
+    display: flex;
+    justify-content: center;
+    width: 20.2vh;
+    height: auto;
+}
+
+.navbar {
+    display: none;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.7vh;
+}
+
+#login img {
+    width: 4.8vh;
+    height: auto;
+}
+
+
+
+/* ----------------------------SECTION PART1------------------------------- */
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+.part1 img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.part1 div:first-child{
+    padding: 0;
+}
+
+.part1 div{
+    padding: 2rem;
+}
+
+.part1 h2{
+    color: #44B491;
+    font-family: 'Poppins';
+}
+
+.part1 p{
+    font-family: 'inter';
+    font-size: 1rem;
+}
+
+/* ----------------------------SECTION PART2------------------------------- */
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+}
+
+.part2 img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.part2 div{
+    padding: 2rem;
+}
+
+.part2 h2{
+    color: #44B491;
+    font-family: 'Poppins';
+}
+
+.part2 p{
+    font-family: 'inter';
+    font-size: 1rem;
+}
+
+/* ----------------------------SECTION PART3------------------------------- */
+
+
+
+/* ----------------------------SECTION PUBLICITÉ------------------------------- */
+
+.publicité{
+    display: none;
+}
+
+/* ----------------------------SECTION FOOTER------------------------------- */
+
+footer{
+    display: none;
+}
