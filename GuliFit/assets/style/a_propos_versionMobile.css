@@ -70,8 +70,6 @@
     height: auto;
 }
 
-
-
 /* ----------------------------SECTION PART1------------------------------- */
 
 .part1 {
@@ -79,6 +77,10 @@
     flex-direction: column;
     text-align: center;
     background-color: #F2F2F2;
+}
+
+.photo_guli{
+    border-radius: 0;
 }
 
 .part1 img{
@@ -133,6 +135,80 @@
 }
 
 /* ----------------------------SECTION PART3------------------------------- */
+
+.part3 {
+    background-color: #F2F2F2;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.part3 h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: #0E447E;
+    font-family: 'Bebas Neue';
+}
+
+.point {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; /* gap permet d'augmenter l'espacement entre les sous-titres */
+}
+
+.point-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 1rem;
+}
+
+.title-with-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* dans ce cas là, gap permet de créer l'espace entre l'icône et mon sous-titres */
+}
+
+.puce_ok_bleu {
+    flex-shrink: 0;
+    width: 2.5rem;
+}
+
+h3 {
+    color: #44B491;
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+}
+
+p {
+    margin: 0;
+    text-align: justify;
+    font-family: 'inter';
+}
+
+#letsgo {
+    margin-top: 5.5vh;
+    margin-bottom: 5.5vh;
+    background-color: #44B491;
+    border: 0.7vh solid #44B491;
+    border-radius: 1.3vh;
+    padding: 1vh 8vh;
+}
+
+#letsgo a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 4vh;
+    font-weight: 700;
+}
 
 
 
