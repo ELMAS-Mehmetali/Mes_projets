@@ -70,6 +70,12 @@
     height: auto;
 }
 
+/* ----------------------------SECTION PAGE_HEADER------------------------------- */
+
+.page_header{
+    display: none;
+}
+
 /* ----------------------------SECTION PART1------------------------------- */
 
 .part1 {
@@ -79,13 +85,13 @@
     background-color: #F2F2F2;
 }
 
-.photo_guli{
-    border-radius: 0;
-}
-
 .part1 img{
     width: 100%;
     border-radius: 1rem;
+}
+
+.part1 img.guli {
+    border-radius: 0;
 }
 
 .part1 div:first-child{
@@ -117,7 +123,9 @@
 
 .part2 img{
     width: 100%;
+    height: 20vh;
     border-radius: 1rem;
+    object-fit: cover;
 }
 
 .part2 div{
