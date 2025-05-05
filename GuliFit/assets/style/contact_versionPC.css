@@ -74,22 +74,133 @@
         .page_header h1{
             font-size: 4.5rem;
             color: white;
+            font-family: 'Bebas Neue';
         }
 
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+/* ----------------------------SECTION MISE EN PAGE DU FORMULAIRE------------------------------- */
 
+.mise_en_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+}
 
+/* ----------------------------SECTION TITRE DU FORMULAIRE------------------------------- */
 
+        .intro{
+            text-align: center;
+            padding: 5rem 2.5rem;
+        }
+        
+        .intro h1{
+            font-family: 'Bebas Neue';
+            font-size: 3.5rem;
+            color: #0E447E;
+        }
+        
+        .intro p{
+            font-family: 'inter';
+            font-size: 1.9rem;
+            line-height: 1.5;
+            padding-top: 1rem;
+            color: #0E447E;
+        }
 
+/* ----------------------------SECTION CONTENU DU FORMULAIRE------------------------------- */
 
+        .contact-form {
+            width: 100%;
+            max-width: 35rem;
+            background: #f2f2f2;
+            padding-bottom: 5rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            font-size: 1.8rem;
+            color: #0E447E;
+            margin-bottom: 0.6rem;
+            font-family: 'Poppins';
+            font-weight:550;
+        }
+        
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 0.7rem;
+            font-size: 1.7rem;
+            color: black;
+            background: white;
+            border: 0.1rem solid black;
+            border-radius: 0.4rem;
+            transition: border-color 0.3s;
+        }
+        
+        /* ::placeholder permet de mettre un texte pour guider l'utilisateur, ce texte s'entlève lorsque l'utilisateur rempli le champs */
+        .form-group input::placeholder{
+            color: grey;
+            font-family: 'inter';
+            font-style: italic;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus {
+            border: 0.1rem solid black;
+        }
+        
+        .form-group select option{
+            color: #0E447E;
+            font-weight: 550;
+            font-family: 'inter';
+        }
 
+        .form-group select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            /* les 3 attributs ci-dessus permet de supprimer le style du "select" webkit pour les navigateur et moz pour firefox */
+            
+            background-image: url("../image/pictrogramme/fleche_select.svg");
+            background-repeat: no-repeat;
+            background-position: right 1rem center;
+            background-size: 1.5rem;
+            padding-right: 3rem;
 
-
-
-
-
-
-
+            /* Ensuite j'ai ajouté une image en background et replacé cette image, qui prendrait tout le champ si je ne l'avais pas personnalisé */
+        }
+        
+        button {
+            width: 100%;
+            margin-top: 1.5rem;
+            padding: 0.5rem;
+            font-family: 'Poppins';
+            font-size: 2.2rem;
+            font-weight: 550;
+            color: white;
+            background: #44B491;
+            border: 0.2rem solid #44B491 ;
+            border-radius: 0.4rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background: white;
+            color: #44B491;
+            font-family: 'Poppins';
+        }
 
 /* ----------------------------SECTION PUBLICITÉ------------------------------- */
 
