@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="../assets/style/mon_profil.css"> -->
+    <link rel="stylesheet" href="../assets/style/mon_profil_coach_versionMobile.css">
     <link rel="stylesheet" href="../assets/style/mon_profil_coach_versionPC.css">
     <title>GuliFit - Mon Profil</title>
 </head>
@@ -32,66 +32,66 @@
             </div>
         </section>
     </header>
+    <section class="page_header">
+        <h1>À PROPOS DE GULIFIT</h1>
+    </section>
     <main class="container">
-        <!-- Menu latéral -->
         <aside class="menu">
-            <h2>MON COMPTE</h2>
+            <h2>Guli ELMAS</h2>
             <ul>
-                <li><a href="./nom.php">MON NOM</a></li>
-                <li><a href="./profil.php">MON PROFIL</a></li>
+                <li><a href="./profil.php">MON PROFIL</a><img src="../assets/image/pictrogramme/fleche_profil_vert.svg" alt="flèche"></li>
                 <li><a href="./seances.php">MES SÉANCES</a></li>
                 <li><a href="./recettes.php">MES RECETTES</a></li>
                 <li><a href="./deconnexion.php">DÉCONNEXION</a></li>
             </ul>
         </aside>
-        <!-- Contenu principal -->
         <section class="profile-content">
-            <h1>Mon Profil</h1>
-            <!-- Ma photo -->
             <div class="photo-section">
                 <h2>Ma photo</h2>
                 <div class="photo-container">
-                    <img src="../assets/image/default-photo.jpg" alt="Photo de profil">
-                    <input type="file" name="profile-photo">
+                    <div class="photo">
+                        <img src="../" alt="Photo_profil">
+                    </div>
+                    <div class="photo-upload">
+                        <input type="file" name="Photo_profil">
+                    </div>
                 </div>
             </div>
-            <!-- Mes coordonnées -->
             <div class="info-section">
                 <h2>Mes coordonnées</h2>
                 <form>
                     <div class="form-group">
                         <label for="nom">Nom</label>
-                        <input type="text" id="nom" value="Nom enregistré" disabled>
+                        <input type="text" id="nom" value="Nom enregistré">
                     </div>
                     <div class="form-group">
                         <label for="prenom">Prénom</label>
-                        <input type="text" id="prenom" value="Prénom enregistré" disabled>
+                        <input type="text" id="prenom" value="Prénom enregistré">
                     </div>
                     <div class="form-group">
                         <label for="date-naissance">Date de naissance</label>
-                        <input type="date" id="date-naissance" value="2000-01-01" disabled>
+                        <input type="date" id="date-naissance" value="2000-01-01">
                     </div>
                     <div class="form-group">
                         <label for="localisation">Localisation</label>
-                        <input type="text" id="localisation" value="Localisation enregistrée" disabled>
+                        <input type="text" id="localisation" value="Localisation enregistrée">
                     </div>
                     <div class="form-group">
                         <label for="diplome">Diplôme</label>
-                        <input type="text" id="diplome" value="Diplôme enregistré" disabled>
+                        <input type="text" id="diplome" value="Diplôme enregistré">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email" value="email@enregistre.com" disabled>
+                        <input type="email" id="email" value="email@enregistre.com">
                     </div>
                     <div class="form-group">
                         <label for="mot-de-passe">Mot de passe</label>
-                        <input type="password" id="mot-de-passe" value="password" disabled>
+                        <input type="password" id="mot-de-passe" value="password">
                     </div>
                     <div class="form-group">
                         <label for="confirmation">Confirmation mot de passe</label>
-                        <input type="password" id="confirmation" value="password" disabled>
+                        <input type="password" id="confirmation" value="password">
                     </div>
-                    <!-- Boutons -->
                     <div class="buttons">
                         <button type="button" class="modify-button">Modifier</button>
                         <button type="button" class="delete-button">Supprimer</button>
