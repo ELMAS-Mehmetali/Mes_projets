@@ -1,0 +1,246 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------HEADER STYLE------------------------------- */
+
+#head {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.7vh 2.7vh;
+}
+
+.menu-burger {
+    position: relative;
+    width: 5.4vh;
+    height: 4.3vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-burger span {
+    position: absolute;
+    width: 100%;
+    height: 0.9vh;
+    background-color: #44B491;
+    border-radius: 0.4vh;
+}
+
+.menu-burger span:nth-child(1) {
+    top: 0;
+    left: 50%;
+}
+.menu-burger span:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.menu-burger span:nth-child(3) {
+    bottom: 0;
+    left: 50%;
+}
+
+#logo img {
+    display: flex;
+    justify-content: center;
+    width: 20.2vh;
+    height: auto;
+}
+
+.navbar {
+    display: none;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.7vh;
+}
+
+#login img {
+    width: 4.8vh;
+    height: auto;
+}
+
+/* ----------------------------SECTION PAGE_HEADER------------------------------- */
+
+.page_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #44B491;
+    width: 100%;
+    height: 12vh;
+}
+
+.page_header h1{
+    font-size: 4rem;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    padding-top: 1.5rem;
+}
+
+/* ----------------------------MISE EN PAGE CONNEXION------------------------------- */
+
+.mise_en_page {
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* ----------------------------MISE EN PAGE DE INTRO DE LA PAGE CONNEXION------------------------------- */
+
+.intro {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.intro h1 {
+    font-family: 'Bebas Neue';
+    font-size: 2.5rem;
+    font-weight: 550;
+    margin-bottom: 1rem;
+    color: #0E447E;
+}
+
+.intro p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #0E447E;
+    font-family: 'inter';
+}
+
+.intro .warning-coach{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: red;
+}
+
+/* ----------------------------MISE EN PAGE DES CHAMPS ET BOUTTON CONNEXION------------------------------- */
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    width: 75%;
+    text-align: left;
+    display: block;
+    font-size: 1.3rem;
+    color: #0E447E;
+    margin-bottom: 0.6rem;
+    font-family: 'Poppins';
+    font-weight:550;
+}
+
+.form-group input {
+    width: 100%;
+    max-width: 75%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    color: black;
+    background: white;
+    border: 0.1rem solid black;
+    border-radius: 0.4rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input::placeholder{
+    color: grey;
+    font-family: 'inter';
+    font-style: italic;
+}
+
+.form-group input:focus{
+    border: 0.1rem solid black;
+}
+
+.connect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 15rem;
+    padding: 0.5rem;
+    border: 0.2rem solid #44B491;
+    background-color: #44B491;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: block;
+    font-weight: 700;
+}
+
+.forgot-password {
+    font-size: 1rem;
+    color: #0E447E;
+    font-family: 'Poppins';
+    margin-left: 3rem;
+}
+
+.trait {
+    width: 80%;
+    height: 1.5px;
+    margin: 1.5rem auto;
+    background-color: #0E447E;
+}
+
+.register-link {
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    color: #0E447E;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.register-button {
+    width: 20rem;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    background-color: #0E447E;
+    border: 0.2rem solid #0E447E;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+.register-button a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+/* ----------------------------SECTION PUBLICITÉ------------------------------- */
+
+.publicité{
+    display: none;
+}
+
+/* ----------------------------SECTION FOOTER------------------------------- */
+
+footer{
+    display: none;
+}

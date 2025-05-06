@@ -1,0 +1,465 @@
+
+
+@media screen and (min-width: 1280px) {
+
+/* ----------------------------HEADER STYLE------------------------------- */
+    body{
+        margin-top: 0;
+    }
+
+    #head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 15.4vh;
+        padding: 0 2vh;
+    }
+
+    #logo img {
+        position: relative;
+        left: 50%;
+        width: 24.1vh;
+        height: auto;
+    }
+    .navbar {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .navbar li {
+        margin-left: 3.2vh;
+        border: 0.3vh solid #000000;
+        border-radius: 0.54vh;
+        padding: 0.54vh;
+    }
+    .navbar li:hover {
+        border: 0.3vh solid #44B491;
+        border-radius: 0.54vh;
+        padding: 0.54vh;
+    }
+    .navbar a {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 2vh;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 1.1vh 1.6vh;
+    }
+    .navbar a:hover {
+        color: #44B491;
+    }
+
+    .menu-burger{
+        display: none;
+    }
+
+/* ----------------------------PREMIERE SECTION PAGE D'ACCUEIL------------------------------- */
+
+    #accueil h1 {
+        
+        color: #44B491;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 500;
+        font-size: 6.8vh;
+    }
+    .mobile-break {
+        display: none;
+    }
+    #accueil h2 {
+        display: flex;
+        justify-content: center;
+        margin: 1vh;
+        color: white;
+        text-align: center;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 3vh;
+    }
+    #CTA-go {
+        margin-top: 13vh;
+        margin-bottom: 5.4vh;
+        background-color: #44B491;
+        border-radius: 1.1vh;
+    }
+    
+    #CTA-go a {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 3.2vh;
+        font-weight: 700;
+        padding: 1.6vh 5vh;
+    }
+
+    #CTA-go:hover {
+        background-color: white;
+    }
+    #CTA-go:hover a {
+        color: #44B491;
+    }
+
+/* ----------------------------DEUXIEME SECTION PAGE D'ACCUEIL------------------------------- */
+
+    .accueil-text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 2.7vh;
+    }
+    .coach-text {
+        color: #44B491;
+        font-size: 3vh;
+        padding-top: 2vh;
+        padding-bottom: 1vh;
+    }
+
+    
+    #register a {
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 4.1vh;
+        font-weight: 700;
+    }
+
+    #register {
+        padding: 1vh 5vh;
+    }
+    
+    #register a {
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 2.5vh;
+        font-weight: 650;
+    }
+    #register:hover {
+        background-color: white;
+        border: 1;
+        border-radius: 1.3vh;
+    }
+    
+    #register:hover a {
+        text-decoration: none;
+        color: #0E447E;
+        font-size: 2.5vh;
+        font-weight: 650;
+    }
+
+/* ----------------------------SECTION A PROPOS------------------------------- */
+
+    .a_propos {
+        display: flex;
+        flex-direction: row;
+        padding: 5rem;
+    }
+
+    .photo_guli{
+        width: 50%;
+    }
+
+    .photo_guli img{
+        display: block;
+        width: 100%;
+        border-radius: 1rem;
+    }
+    
+    .description {
+        display: flex;
+        flex-direction: column;
+        max-height: 100%;
+        width: 50%;
+        padding-left: 5rem;
+        padding-right: 7rem;
+    }
+
+    .description img {
+        position: relative;
+        display: block;
+        order: 2;
+        width: 50%;
+    }
+
+    .a_propos h1 {
+        order: 3;
+        color: #44B491;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 3rem;
+        font-weight: 500;
+        text-align: start;
+        padding: 2rem 0rem;
+    }
+    
+    
+    .a_propos p {
+        order: 4;
+        font-family: 'inter';
+        font-size: 1.5rem;
+        line-height: 1.5;
+        padding: 0 0 2rem 0;
+    }
+
+    .gulifit-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #44B491;
+        border: 0.7vh solid #44B491;
+        padding: 1.5rem;
+        border-radius: 1vh;
+        width: 80%;
+        height: 2rem;
+        order: 5;
+        margin-top: 2rem;
+        }
+
+        .gulifit-button a{
+            color: white;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 125%;
+        }
+
+        .gulifit-button:hover {
+            background-color: white;
+        }
+
+        .gulifit-button:hover a {
+            color: #44B491;
+        }
+
+/* ----------------------------SECTION SEANCES & RECETTES------------------------------- */
+
+        .seances_nutrition {
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .seances_nutrition .seance,
+        .seances_nutrition .nutrition {
+            margin: 2rem 2rem 4rem 2rem
+        }
+
+        .seances_nutrition h1{
+            display: block;
+            color: white;
+            position: absolute;
+            top: 5%;
+            text-align: center;
+        }
+
+        .seances_nutrition .button {
+            position: absolute;
+            bottom: 3.5%;
+            width: 55%;
+        }
+
+        .seances_nutrition .button:hover {
+            background-color: white;
+        }
+
+        .seances_nutrition .button:hover a {
+            color: #44B491;
+        }
+
+/* ----------------------------SECTION CONTACT------------------------------- */
+
+        .contact{
+            position: relative;
+            padding: 4rem 0;
+        }
+
+        .contact_1 img{
+            border-radius: 1rem;
+        }
+
+        .contact_2{
+            width:100%;
+            position: absolute;
+            bottom: 20%;
+            background: rgba(0, 0, 0, 0.5) 100%;
+            color: white;
+            padding: 2rem;
+            border-radius: 0;
+        }
+
+        .contact_2 .button_contact{
+            width: 25%;
+        }
+
+        .button_contact:hover{
+            background-color: white;
+        }
+
+        .button_contact:hover a{
+            color: #44B491;
+        }
+
+/* ----------------------------SECTION INSCRIPTION------------------------------- */
+        
+        .inscription{
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        
+        .temoignage{
+            width: 50%;
+        }
+        
+        .commentaires{
+            margin: 5%;
+            border-radius: 1rem;
+            padding: 2rem;
+        }
+
+        .commentaires h2{
+            text-align: start;
+        }
+        
+        .affiche_inscription{
+            position: relative;
+            width: 50%;
+        }
+
+        .inscription_img img{
+            margin-top: 0;
+        }
+
+        .inscription_txt{
+            position: absolute;
+            bottom: 0;
+            width: 90%;
+            background: rgba(0, 0, 0, 0.5) 100%;
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+        }
+
+        .inscription_txt p{
+            color: white;
+        }
+
+        .button_register{
+            width: 55%;
+        }
+
+        .button_register:hover{
+            background-color: white;
+        }
+
+        .button_register:hover a{
+            color: #44B491;
+        }
+
+/* ----------------------------SECTION PUBLICITÉ------------------------------- */
+
+        .publicité{
+            display: block;
+            position: relative;
+            background-color:white ;
+        }
+
+        .pub{
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            border-bottom: none;
+            position: absolute;
+            left: 10%;
+            top: -5%;
+            background-color: white;
+            padding: 7px 10px 0px 10px;
+        }
+
+        .pub p{
+            font-family: 'inter';
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #44B491;
+        }
+
+        .pub_2{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .pub_2 img{
+            width: 30%;
+            height: auto;
+            padding: 5%;
+        }
+
+/* ----------------------------FOOTER STYLE------------------------------- */
+
+        footer{
+            background-color: #44B491;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        footer p {
+            font-family: 'inter';
+        }
+
+        .navbar_foot {
+            justify-content: space-evenly;
+            border-left: 3px solid white;
+            padding-left: 1rem;
+        }
+
+        .navbar2_foot {
+            border-left: 3px solid white;
+            padding-left: 1rem;
+        }
+
+        .navbar_foot li, .navbar2_foot li{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            font-family: 'Poppins';
+            color: white;
+            font-weight: 700;
+        }
+
+        .navbar_foot li a, .navbar2_foot li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .picto img{
+            width: 4rem;
+            margin: 2px;
+        }
+
+        .picto{
+            padding: 1rem;
+        }
+
+        .coordonnees{
+            color: white;
+        }
+
+        .logo_footer{
+            color: white;
+            font-size: 1rem;
+        }
+
+        .logo_footer p{
+            padding: 1rem;
+        }
+
+}

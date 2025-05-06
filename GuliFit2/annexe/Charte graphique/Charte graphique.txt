@@ -1,0 +1,68 @@
+Typographies
+Titres Principaux (H1, H2, etc.) – Bebas Neue
+
+Pourquoi :
+Bebas Neue est une police en majuscules, condensée et percutante. Elle attire immédiatement l’attention et véhicule énergie et confiance, ce qui est idéal pour une coach sportive.
+Utilisation :
+Pour le nom du site, les titres des pages ou sections importantes.
+Sous-titres – Poppins Bold/Semi-Bold
+
+Pourquoi :
+Poppins offre une lecture claire et moderne. Utilisée en version Bold ou Semi-Bold, elle complète bien Bebas Neue en apportant une touche contemporaine sans alourdir le design.
+Utilisation :
+Pour les sous-titres qui détaillent ou précisent le message principal.
+Texte de Corps – Inter Regular
+
+Pourquoi :
+Inter est très lisible, même sur des écrans, et se prête parfaitement aux longs paragraphes. Elle assure une bonne expérience utilisateur pour la lecture des contenus détaillés.
+Utilisation :
+Pour les descriptions, articles, témoignages et tout contenu textuel principal.
+Boutons et Appels à l’Action (CTA) – Montserrat Bold
+
+Pourquoi :
+Montserrat Bold est moderne et énergique. Elle capte l'attention et incite à l'action, idéale pour les boutons et liens importants.
+Utilisation :
+Pour les boutons comme « Réservez une séance » ou « Contactez-moi » afin de guider l’utilisateur.
+Palette de Couleurs (Maximum 5 Couleurs)
+Couleur Principale – Bleu Marine (#2C3E50) ou (#1C3557)
+
+Utilisation :
+Pour les titres principaux, la navigation et les éléments graphiques majeurs.
+Pourquoi :
+Le bleu marine inspire la confiance, la stabilité et le professionnalisme.
+Couleur Secondaire – Bleu Électrique (#2980B9) ou (#467B9D)
+
+Utilisation :
+Pour les boutons d’appel à l’action, les liens et les surlignages importants.
+Pourquoi :
+Cette teinte plus vive crée un contraste efficace avec le bleu marine et dynamise l’ensemble du design.
+Accent – Vert Lime (#27AE60)
+
+Utilisation :
+Pour mettre en avant des éléments spécifiques (icônes, badges, éléments interactifs) ou des messages positifs (succès, progrès).
+Pourquoi :
+Le vert lime évoque la vitalité, l’énergie et la fraîcheur, en parfaite adéquation avec l’univers sportif.
+Neutre Clair – Gris Clair (#ECF0F1) ou (#F1F1F1)
+
+Utilisation :
+Pour les fonds de sections, zones de respiration et autres espaces neutres.
+Pourquoi :
+Le gris clair permet d’équilibrer les couleurs vives et d’assurer une bonne lisibilité du contenu.
+Fond Blanc (#FFFFFF)
+
+Utilisation :
+Pour les arrière-plans généraux et les espaces de mise en page épurés.
+Pourquoi :
+Le blanc offre un contraste optimal avec les autres couleurs, assurant une lecture confortable et un rendu moderne.
+Exemple d'Intégration
+Titres (Bebas Neue, 48px, Bleu Marine #2C3E50) :
+ATTEIGNEZ VOS OBJECTIFS
+
+Sous-titres (Poppins Bold, 24px, Bleu Électrique #2980B9) :
+Coaching personnalisé pour booster votre performance
+
+Texte de Corps (Inter Regular, 16px, Gris Foncé sur fond Gris Clair #ECF0F1 ou Blanc) :
+Découvrez des programmes sur-mesure adaptés à vos besoins, qu'il s'agisse de préparation au marathon, musculation, HIIT ou remise en forme globale.
+
+Boutons / CTA (Montserrat Bold, 18px, Texte en Blanc sur fond Bleu Électrique ou Vert Lime) :
+[Réservez une séance gratuite]
