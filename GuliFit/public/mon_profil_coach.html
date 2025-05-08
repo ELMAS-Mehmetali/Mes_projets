@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/style/inscription_versionMobile.css">
-    <link rel="stylesheet" href="../assets/style/inscription_versionPC.css">
-    <title>GuliFit - Inscription</title>
+    <link rel="stylesheet" href="../assets/style/mon_profil_coach_versionMobile.css">
+    <link rel="stylesheet" href="../assets/style/mon_profil_coach_versionPC.css">
+    <title>GuliFit - Mon Profil</title>
 </head>
 <body>
     <header>
@@ -32,64 +32,72 @@
             </div>
         </section>
     </header>
-    <main>
-        <section class="page_header">
-            <h1>INSCRIPTION</h1>
-        </section>
-        <section class="mise_en_page">
-            <section class="intro">
-                <h1>Vous êtes coach ?</h1>
-                <p class="warning-coach">
-                    <u>ATTENTION !</u><br>
-                    Cette page est exclusivement réservée aux coachs sportifs souhaitant publier du contenu sur notre plateforme. 
-                    Si vous êtes un visiteur à la recherche d'informations, merci de consulter nos autres sections.
-                </p>
-                <h2>Partagez votre expertise, inspirez la communauté sportive.</h2>
-                <p>Rejoignez-nous pour partager vos connaissances, aider chacun à atteindre ses objectifs sportifs et élargir votre réseau grâce à notre formulaire de contact.</p>
-            </section>
-            <section class="contact-form">
-                <form method="POST">
+    <section class="page_header">
+        <h1>À PROPOS DE GULIFIT</h1>
+    </section>
+    <main class="container">
+        <aside class="menu">
+            <h2>Guli ELMAS</h2>
+            <ul>
+                <li><a href="./profil.php">MON PROFIL</a><img src="../assets/image/pictrogramme/fleche_profil_vert.svg" alt="flèche"></li>
+                <li><a href="./seances.php">MES SÉANCES</a></li>
+                <li><a href="./recettes.php">MES RECETTES</a></li>
+                <li><a href="./deconnexion.php">DÉCONNEXION</a></li>
+            </ul>
+        </aside>
+        <section class="profile-content">
+            <div class="photo-section">
+                <h2>Ma photo</h2>
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="../" alt="Photo_profil">
+                    </div>
+                    <div class="photo-upload">
+                        <input type="file" name="Photo_profil">
+                    </div>
+                </div>
+            </div>
+            <div class="info-section">
+                <h2>Mes coordonnées</h2>
+                <form>
                     <div class="form-group">
                         <label for="nom">Nom</label>
-                        <input type="text" id="nom" name="nom" placeholder="Entrez votre nom">
+                        <input type="text" id="nom" value="Nom enregistré">
                     </div>
                     <div class="form-group">
                         <label for="prenom">Prénom</label>
-                        <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom">
+                        <input type="text" id="prenom" value="Prénom enregistré">
                     </div>
                     <div class="form-group">
-                        <label for="date_naissance">Date de naissance</label>
-                        <input type="text" id="date_naissance" name="date_naissance" placeholder="JJ / MM / AAAA">
+                        <label for="date-naissance">Date de naissance</label>
+                        <input type="date" id="date-naissance" value="2000-01-01">
                     </div>
                     <div class="form-group">
                         <label for="localisation">Localisation</label>
-                        <input type="text" id="localisation" name="localisation" placeholder="Entrez votre localisation">
-                    </div>
-                    <div class="form-group file-upload">
-                        <label for="diplome">Diplôme</label>
-                        <input type="file" id="diplome" name="diplome">
+                        <input type="text" id="localisation" value="Localisation enregistrée">
                     </div>
                     <div class="form-group">
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" placeholder="Entrez votre adresse mail">
+                        <label for="diplome">Diplôme</label>
+                        <input type="text" id="diplome" value="Diplôme enregistré">
                     </div>
-                    <div class="form-group password-group">
-                        <label for="password">Mot de passe</label>
-                        <div class="password-container">
-                            <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe">
-                            <img src="../assets/image/pictrogramme/oeil_mdp.svg" alt="toggle password visibility" id="toggle-password">
-                        </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" value="email@enregistre.com">
                     </div>
-                    <div class="form-group password-group">
-                        <label for="confirm_password">Confirmation de mot de passe</label>
-                        <div class="password-container">
-                            <input type="password" id="confirm_password" name="confirm_password" placeholder="Entrez à nouveau votre mot de passe">
-                            <img src="../assets/image/pictrogramme/oeil_mdp.svg" alt="toggle password visibility" id="toggle-confirm-password">
-                        </div>
-                    </div>                    
-                    <button type="submit">INSCRIPTION</button>
+                    <div class="form-group">
+                        <label for="mot-de-passe">Mot de passe</label>
+                        <input type="password" id="mot-de-passe" value="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmation">Confirmation mot de passe</label>
+                        <input type="password" id="confirmation" value="password">
+                    </div>
+                    <div class="buttons">
+                        <button type="button" class="modify-button">Modifier</button>
+                        <button type="button" class="delete-button">Supprimer</button>
+                    </div>
                 </form>
-            </section>
+            </div>
         </section>
     </main>
     <footer>
@@ -128,6 +136,5 @@
             <p>Tous droits réservés © Copyright 2025 GuliFit</p>
         </div>
     </footer>
-    <script src="../assets/js/mot_de_passe.js"></script>
 </body>
 </html>

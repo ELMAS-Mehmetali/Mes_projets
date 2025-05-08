@@ -96,7 +96,7 @@
             margin: 2rem 0;
         }
 
-        /* ----------------------------MISE EN PAGE DES CHAMPS ET BOUTTON CONNEXION------------------------------- */
+/* ----------------------------MISE EN PAGE DES CHAMPS ET BOUTTON CONNEXION------------------------------- */
 
         .form-group label {
             width: 50%;
@@ -127,5 +127,67 @@
 
         .register-button:hover a{
             color: #0E447E;
+        }
+
+/* ----------------------------FOOTER STYLE------------------------------- */
+
+        footer{
+            background-color: #44B491;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1rem;
+        }
+
+        footer p {
+            font-family: 'inter';
+        }
+
+        .navbar_foot {
+            justify-content: space-evenly;
+            border-left: 3px solid white;
+            padding-left: 1rem;
+        }
+
+        .navbar2_foot {
+            border-left: 3px solid white;
+            padding-left: 1rem;
+        }
+
+        .navbar_foot li, .navbar2_foot li{
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            font-family: 'Poppins';
+            color: white;
+            font-weight: 700;
+        }
+
+        .navbar_foot li a, .navbar2_foot li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .picto img{
+            width: 4rem;
+            margin: 2px;
+        }
+
+        .coordonnees{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            padding: 1rem;
+            font-size: 1.2rem;
+            font-weight: 650;
+        }
+
+        .logo_footer{
+            color: white;
+        }
+
+        .logo_footer p{
+            padding: 1rem;
         }
 }

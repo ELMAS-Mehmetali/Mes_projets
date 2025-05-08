@@ -1,10 +1,10 @@
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) { 
 
     /* ----------------------------HEADER STYLE------------------------------- */
         body{
             margin-top: 0;
         }
-    
+
         #head {
             background-color: #000000;
             display: flex;
@@ -63,118 +63,104 @@
 /* ----------------------------SECTION PAGE_HEADER------------------------------- */
 
         .page_header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url(../image/contact/contact.jpg); /* image à changer */
+            width: 100%;
             height: 20vh;
         }
 
         .page_header h1{
-            font-size: 6rem;
+            font-size: 4.5rem;
+            color: white;
+            font-family: 'Bebas Neue';
+            padding: 1rem;
         }
 
-        * {
+/* ----------------------------MISE EN PAGE GENERALE------------------------------- */
+
+        body {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+/* ----------------------------MISE EN PAGE ASIDE------------------------------- */
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 25%;
+            background-color: #44B491;
+            color: white;
+            padding-top: 2rem;
+            min-height: 100vh;
         }
         
-/* ----------------------------SECTION MISE EN PAGE DU FORMULAIRE------------------------------- */
+        .menu h2 {
+            font-family: 'Bebas Neue';
+            font-size: 3rem;
+            font-weight: 550;
+            margin-bottom: 20px;
+        }
+        
+        .menu ul {
+            font-family: 'Bebas Neue';
+            list-style: none;
+            width: 100%;
+        }
+        
+        .menu li {
+            display: flex;
+            justify-content: center;
+            padding: 2rem 0;
+            background-color: white;
+            margin: 0.5rem 0;
+        }
 
-.mise_en_page{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f2f2f2;
+        .menu li a {
+            text-decoration: none;
+            color: #44B491;
+            font-weight: bold;
+            transition: color 0.3s;
+            font-size: 2rem;
+        }
+
+        .menu li a:hover {
+            color: #0E447E;
+        }
+
+        .menu li img{
+            width: 1rem;
+            position: relative;
+            left: 3rem;
+        }
+
+/* ----------------------------MISE EN PAGE CENTRALE------------------------------- */
+
+.modify-button {
+    width: 30%;
 }
 
-/* ----------------------------SECTION TITRE DU FORMULAIRE------------------------------- */
+.modify-button:hover {
+    background-color: #36906d;
+}
 
-        .intro{
-            text-align: center;
-            padding: 5rem 2.5rem;
-        }
-        
-        .intro h1{
-            font-family: 'Bebas Neue';
-            font-size: 3.5rem;
-            color: #0E447E;
-        }
-        
-        .intro p{
-            font-family: 'inter';
-            font-size: 1.9rem;
-            line-height: 1.5;
-            padding-top: 1rem;
-            color: #0E447E;
-        }
+.delete-button {
+    width: 30%;
+}
 
-        .intro .warning-coach{
-            font-size: 1.6rem;
-            margin: 2rem 0;
-        }
-
-/* ----------------------------SECTION CONTENU DU FORMULAIRE------------------------------- */
-
-        .contact-form {
-            width: 100%;
-            max-width: 35rem;
-            background: #f2f2f2;
-            padding-bottom: 5rem;
-        }
-        
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-        
-        .form-group label {
-            display: block;
-            font-size: 1.8rem;
-            color: #0E447E;
-            margin-bottom: 0.6rem;
-            font-family: 'Poppins';
-            font-weight:550;
-        }
-        
-        .form-group input{
-            width: 100%;
-            padding: 0.7rem;
-            font-size: 1.7rem;
-            color: black;
-            background: white;
-            border: 0.1rem solid black;
-            border-radius: 0.4rem;
-            transition: border-color 0.3s;
-        }
-        
-        /* ::placeholder permet de mettre un texte pour guider l'utilisateur, ce texte s'entlève lorsque l'utilisateur rempli le champs */
-        .form-group input::placeholder{
-            color: grey;
-            font-family: 'inter';
-            font-style: italic;
-        }
-        
-        .form-group input:focus {
-            border: 0.1rem solid black;
-        }
-
-        button {
-            width: 100%;
-            margin-top: 1.5rem;
-            padding: 0.5rem;
-            font-family: 'Poppins';
-            font-size: 2.2rem;
-            font-weight: 550;
-            color: white;
-            background: #44B491;
-            border: 0.2rem solid #44B491 ;
-            border-radius: 0.4rem;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-        
-        button:hover {
-            background: white;
-            color: #44B491;
-            font-family: 'Poppins';
-        }
+.delete-button:hover {
+    background-color: rgb(151, 2, 2);
+}
 
 /* ----------------------------FOOTER STYLE------------------------------- */
 
@@ -237,4 +223,4 @@
         .logo_footer p{
             padding: 1rem;
         }
-    }
+}

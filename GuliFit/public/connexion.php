@@ -81,5 +81,41 @@
             </section>
         </section>
     </main>
+    <footer>
+        <div class="navbar_foot">
+            <ul>
+                <li><a href="./index.php">ACCUEIL</a></li>
+                <li><a href="./a_propos.php">À PROPOS</a></li>
+                <li><a href="./seances.php">SÉANCES</a></li>
+                <li><a href="./nutrition.php">NUTRITION</a></li>
+                <li><a href="./contact.php">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="navbar2_foot">
+            <ul>
+                <li><a href="./connexion.php">CONNEXION</a></li>
+                <li><a href="./inscription.php">INSCRIPTION</a></li>
+                <li><a href="./partenaires.php">PARTENAIRES</a></li>
+                <li><a href="./credits.php">CRÉDITS</a></li>
+                <li><a href="./politique_confidentialité.php">POLITIQUE DE CONFIDENTIALITÉ</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <div class="picto">
+                <a href="./lien_x_a_mettre"><img src="../assets/image/pictrogramme/picto_X.svg" alt="picto_X"></a>
+                <a href="./lien_insta_a_mettre"><img src="../assets/image/pictrogramme/picto_insta.svg" alt="picto_insta"></a>
+                <a href="./lien_tiktok_a_mettre"><img src="../assets/image/pictrogramme/picto_tiktok.svg" alt="picto_tiktok"></a>
+                <a href="./lien_whatsapp_a_mettre"><img src="../assets/image/pictrogramme/picto_whatsapp.svg" alt="picto_whatsapp"></a>
+            </div>
+            <div class="coordonnees">
+                <p>+336 16 04 27 82 </p>
+                <p>contact@gulifit.com</p>
+            </div>
+        </div>
+        <div class="logo_footer">
+            <img src="../assets/image/logo/logo_horizontal_footer.svg" alt="logo_gulifit">
+            <p>Tous droits réservés © Copyright 2025 GuliFit</p>
+        </div>
+    </footer>
 </body>
 </html>
