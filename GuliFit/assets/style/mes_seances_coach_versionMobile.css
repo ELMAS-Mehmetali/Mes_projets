@@ -72,7 +72,7 @@
 
 /* ----------------------------SECTION PAGE_HEADER------------------------------- */
 
-.page_header{
+.page_header {
     display: none;
 }
 
@@ -103,47 +103,57 @@ body {
     background-color: #f2f2f2;
 }
 
-.seances-content h2{
-    font-family: 'Poppins';
-    font-weight: 700;
-    color: #44B491;
-    font-size: 1.8rem;
-}
-
 .illustration-section,
 .info-section {
     background-color: #f2f2f2;
     padding: 2rem;
+    margin-left: auto;
 }
 
-.illustration-section{
-    height: 20%;
-    margin-bottom: 0;
-    padding-bottom: 0;
+.illustration-section {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.illustration-section p {
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: black;
+    font-size: 1.1rem;
+    width: auto; /* Largeur ajustée */
+    margin-bottom: 0.5rem; /* Espacement vertical */
+    text-align: left;
 }
 
 .illustration-container {
     display: flex;
-    text-align: center;
-    margin: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 0;
 }
 
 .illustration {
-    width: 8rem;
+    width: 100%;
+    max-width: 8rem;
     height: 8rem;
     border-radius: 0.5rem;
     border: 0.1rem solid grey;
-    font-family: 'inter';
+    font-family: 'Inter';
 }
 
 .illustration-container input {
     margin-top: 1rem;
     margin-left: 1rem;
-    font-family: 'inter';
+    font-family: 'Inter';
 }
 
 .info-section .form-group {
-    margin: 1rem;
+    margin: 1rem 0; /* Espacement vertical */
+    display: flex;
+    flex-direction: column; /* Empile les labels et inputs */
+    align-items: flex-start;
 }
 
 .info-section label {
@@ -151,33 +161,19 @@ body {
     font-weight: bold;
     color: black;
     font-size: 1.1rem;
+    margin-bottom: 0.5rem; /* Espacement entre le label et l'input */
+    width: auto;
+    text-align: left;
 }
 
-.info-section input {
-    font-family: 'inter';
+.info-section input,
+.info-section select {
+    font-family: 'Inter';
     font-size: 1rem;
     width: 100%;
     border: 0.1rem solid grey;
     border-radius: 5px;
     padding: 0.5rem;
-    margin-top: 0.5rem;
-}
-
-.form-group select {
-    width: 100%;
-    padding: 0.7rem;
-    font-size: 1rem;
-    color: black;
-    background: white;
-    border: 0.1rem solid black;
-    border-radius: 0.4rem;
-    transition: border-color 0.3s;
-}
-
-.form-group select option{
-    color: #0E447E;
-    font-weight: 550;
-    font-family: 'inter';
 }
 
 .form-group select {
@@ -191,54 +187,52 @@ body {
     padding-right: 3rem;
 }
 
+.form-group select option {
+    color: #0E447E;
+    font-weight: 550;
+    font-family: 'Inter';
+}
+
 .buttons {
     display: flex;
     justify-content: flex-start;
-    margin-left: 1rem;
     margin-top: 2rem;
 }
 
-.modify-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    background-color: #44b491;
-    color: white;
-    font-size: 1.5rem;
-    font-family: 'Montserrat';
-    font-weight: 700;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    padding: 0.5rem;
-}
-
+.modify-button,
 .delete-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
-    background-color: red;
-    color: white;
-    font-size: 1.5rem;
+    width: auto;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
     font-family: 'Montserrat';
     font-weight: 700;
-    border-radius: 0.5rem;
     border: none;
+    border-radius: 0.5rem;
     cursor: pointer;
-    padding: 0.5rem;
+}
+
+.modify-button {
+    background-color: #44b491;
+    color: white;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
     margin-left: 1rem;
 }
 
 /* ----------------------------SECTION PUBLICITÉ------------------------------- */
 
-.publicité{
+.publicité {
     display: none;
 }
 
 /* ----------------------------SECTION FOOTER------------------------------- */
 
-footer{
+footer {
     display: none;
 }
