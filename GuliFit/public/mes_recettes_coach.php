@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/style/mon_profil_coach_versionMobile.css">
-    <link rel="stylesheet" href="../assets/style/mon_profil_coach_versionPC.css">
-    <title>GuliFit - Mon Profil</title>
+    <link rel="stylesheet" href="../assets/style/mes_seances_recettes_coach_versionMobile.css">
+    <link rel="stylesheet" href="../assets/style/mes_seances_recettes_coach_versionPC.css">
+    <title>Coach - Mes recettes</title>
 </head>
 <body>
     <header>
@@ -39,58 +39,63 @@
         <aside class="menu">
             <h2>Guli ELMAS</h2>
             <ul>
-                <li><a href="./profil.php">MON PROFIL</a><img src="../assets/image/pictrogramme/fleche_profil_vert.svg" alt="flèche"></li>
-                <li><a href="./seances.php">MES SÉANCES</a></li>
-                <li><a href="./recettes.php">MES RECETTES</a></li>
+                <li><a href="./mon_profil_coach.php">MON PROFIL</a></li>
+                <li><a href="./mes_seances_coach.php">MES SÉANCES</a></li>
+                <li><a href="./mes_recettes_coach.php">MES RECETTES</a><img src="../assets/image/pictrogramme/fleche_profil_vert.svg" alt="flèche"></li>
                 <li><a href="./deconnexion.php">DÉCONNEXION</a></li>
             </ul>
         </aside>
-        <section class="profile-content">
-            <div class="photo-section">
-                <h2>Ma photo</h2>
-                <div class="photo-container">
-                    <div class="photo">
-                        <img src="../" alt="Photo_profil">
+        <section class="seances_recettes-content">
+            <div class="illustration-section">
+                <p>Illustration</p>
+                <div class="illustration-container">
+                    <div class="illustration">
+                        <img src="../" alt="illustration de la recette">
                     </div>
-                    <div class="photo-upload">
-                        <input type="file" name="Photo_profil">
+                    <div class="illustration-upload">
+                        <input type="file" name="illustration_recette">
                     </div>
                 </div>
             </div>
             <div class="info-section">
-                <h2>Mes coordonnées</h2>
                 <form>
                     <div class="form-group">
-                        <label for="nom">Nom</label>
-                        <input type="text" id="nom" value="Nom enregistré">
+                        <label for="nom_recette">Nom de la recette</label>
+                        <input type="text" id="nom_recette" placeholder="Ex: Poulet coco">
                     </div>
                     <div class="form-group">
-                        <label for="prenom">Prénom</label>
-                        <input type="text" id="prenom" value="Prénom enregistré">
+                        <label for="objectif">Objectif</label>
+                        <select id="objectif" name="objectif">
+                            <option value="" disabled selected>Choisissez l'objectif de la recette</option>
+                            <option value="prise de masse">Prise de masse</option>
+                            <option value="perte de poids">Perte de poids</option>
+                        </select>
                     </div>
                     <div class="form-group">
-                        <label for="date-naissance">Date de naissance</label>
-                        <input type="date" id="date-naissance" value="2000-01-01">
+                        <label for="type">Type de plat</label>
+                        <select id="type" name="type">
+                            <option value="" disabled selected>Choisissez le type de plat</option>
+                            <option value="Entrée">Entrée</option>
+                            <option value="Plat">Plat</option>
+                            <option value="Dessert">Dessert</option>
+                        </select>
                     </div>
                     <div class="form-group">
-                        <label for="localisation">Localisation</label>
-                        <input type="text" id="localisation" value="Localisation enregistrée">
+                        <label for="Temps">Temps de préparation</label>
+                        <input type="text" id="Temps" placeholder="Ex: 1 heure 30">
                     </div>
                     <div class="form-group">
-                        <label for="diplome">Diplôme</label>
-                        <input type="text" id="diplome" value="Diplôme enregistré">
+                        <label for="ingredients">Ingrédients</label>
+                        <input type="text" id="ingredient" placeholder="Listez vos ingrédients:
+                        -200g de poulet.">
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" value="email@enregistre.com">
+                        <label for="preparation">Préparation</label>
+                        <input type="text" id="preparation" placeholder="Rédigez de la plus simple et clair possible la préparation du plat">
                     </div>
                     <div class="form-group">
-                        <label for="mot-de-passe">Mot de passe</label>
-                        <input type="password" id="mot-de-passe" value="password">
-                    </div>
-                    <div class="form-group">
-                        <label for="confirmation">Confirmation mot de passe</label>
-                        <input type="password" id="confirmation" value="password">
+                        <label for="description">Description</label>
+                        <input type="text" id="description" placeholder="Rédigez un petit texte descriptif de la recette">
                     </div>
                     <div class="buttons">
                         <button type="button" class="modify-button">Modifier</button>
@@ -98,6 +103,12 @@
                     </div>
                 </form>
             </div>
+        </section>
+        <section class="seances-modif">
+
+        </section>
+        <section class="seance-valide">
+
         </section>
     </main>
     <footer>

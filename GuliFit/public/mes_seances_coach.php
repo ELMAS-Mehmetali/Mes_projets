@@ -39,9 +39,9 @@
         <aside class="menu">
             <h2>Guli ELMAS</h2>
             <ul>
-                <li><a href="./profil.php">MON PROFIL</a></li>
-                <li><a href="./seances.php">MES SÉANCES</a><img src="../assets/image/pictrogramme/fleche_profil_vert.svg" alt="flèche"></li>
-                <li><a href="./recettes.php">MES RECETTES</a></li>
+                <li><a href="./mon_profil_coach.php">MON PROFIL</a></li>
+                <li><a href="./mes_seances_coach.php">MES SÉANCES</a><img src="../assets/image/pictrogramme/fleche_profil_vert.svg" alt="flèche"></li>
+                <li><a href="./mes_recettes_coach.php">MES RECETTES</a></li>
                 <li><a href="./deconnexion.php">DÉCONNEXION</a></li>
             </ul>
         </aside>
