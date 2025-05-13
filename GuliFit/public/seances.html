@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style/seances_nutrition_versionMobile.css">
+    <link rel="stylesheet" href="../assets/style/seances_nutrition_versionPC.css">
+    <title>GuliFit - À propos</title>
+</head>
+<body>
+    <header>
+        <section id="head">
+            <div class="menu-burger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="logo">
+                <img src="../assets/image/logo/logo_horizontal_contraste.svg" alt="logo_gulifit">
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="./index.php">ACCUEIL</a></li>
+                    <li><a href="./a_propos.php">À PROPOS</a></li>
+                    <li><a href="./seances.php">SÉANCES</a></li>
+                    <li><a href="./nutrition.php">NUTRITION</a></li>
+                    <li><a href="./contact.php">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div id="login">
+                <a href="./connexion.php"><img src="../assets/image/pictrogramme/connexion.svg" alt="login"></a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="page_header">
+            <h1>À PROPOS DE GULIFIT</h1>
+        </section>
+        
+
+        <main>
+            <section class="section-filtre">
+              <h2>CHOISISSEZ VOS SÉANCES</h2>
+              <div class="filtres">
+                <div class="filtre-group">
+                  <div class="filtre-header">
+                    <img src="../assets/image/pictrogramme/check-green.svg" alt="✓" class="icon">
+                    <span class="filter-title">Catégories</span>
+                  </div>
+                  <div class="options">
+                    <label><input type="radio" name="categorie" value="Musculation"> Musculation</label>
+                    <label><input type="radio" name="categorie" value="HIIT"> HIIT</label>
+                    <label><input type="radio" name="categorie" value="Running"> Running</label>
+                  </div>
+                </div>
+                <div class="filtre-group">
+                  <div class="filtre-header">
+                    <img src="../assets/image/pictrogramme/levels-green.svg" alt="📊" class="icon">
+                    <span class="filter-title">Niveau</span>
+                  </div>
+                  <div class="options">
+                    <label><input type="radio" name="niveau" value="Débutant"> Débutant</label>
+                    <label><input type="radio" name="niveau" value="Intermédiaire"> Intermédiaire</label>
+                    <label><input type="radio" name="niveau" value="Avancé"> Avancé</label>
+                  </div>
+                </div>
+                <div class="filtre-group coach">
+                  <div class="filtre-header">
+                    <img src="../assets/image/pictrogramme/coach-green.svg" alt="👤" class="icon">
+                    <span class="filtre-titre">Coach</span>
+                  </div>
+                  <select>
+                    <option>Choisissez votre coach</option>
+                    <option>Guli</option>
+                    <option>Antoine</option>
+                  </select>
+                </div>
+          
+                <button class="Valider">Valider</button>
+              </div>
+          
+              <!-- Exemple de carte de séance -->
+              <div class="session-card">
+                <div class="card-header">
+                  <span class="tag">Musculation</span>
+                  <span class="separator">|</span>
+                  <span class="tag">Séance Jambes</span>
+                </div>
+                <div class="card-body">
+                  <img src="../assets/image/seance/press.jpg" alt="Séance Jambes">
+                  <div class="details">
+                    <div class="detail">
+                      <img src="../assets/image/pictrogramme/levels-green.svg" alt="">
+                      <span>Débutant</span>
+                    </div>
+                    <div class="detail">
+                      <img src="../assets/image/pictrogramme/time-green.svg" alt="">
+                      <span>60 minutes</span>
+                    </div>
+                    <div class="detail">
+                      <img src="../assets/image/pictrogramme/coach-green.svg" alt="">
+                      <span>Guli</span>
+                    </div>
+                  </div>
+                  <button class="card-btn">Let's Go !</button>
+                </div>
+              </div>
+          
+            </section>
+          </main>
+          
+
+        
+                <section class="publicité">
+            <div class="pub">
+                <p>Publicités</p>
+            </div>
+            <div class="pub_2">
+                <img src="../assets/image/pub/pub_whey.jpg" alt="pub_whey">
+                <img src="../assets/image/pub/pub_decathlon.jpg" alt="pub_décathlon">
+                <img src="../assets/image/pub/pub_garmin.jpg" alt="pub_garmin">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="navbar_foot">
+            <ul>
+                <li><a href="./index.php">ACCUEIL</a></li>
+                <li><a href="./a_propos.php">À PROPOS</a></li>
+                <li><a href="./seances.php">SÉANCES</a></li>
+                <li><a href="./nutrition.php">NUTRITION</a></li>
+                <li><a href="./contact.php">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="navbar2_foot">
+            <ul>
+                <li><a href="./connexion.php">CONNEXION</a></li>
+                <li><a href="./inscription.php">INSCRIPTION</a></li>
+                <li><a href="./partenaires.php">PARTENAIRES</a></li>
+                <li><a href="./credits.php">CRÉDITS</a></li>
+                <li><a href="./politique_confidentialité.php">POLITIQUE DE CONFIDENTIALITÉ</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <div class="picto">
+                <a href="./lien_x_a_mettre"><img src="../assets/image/pictrogramme/picto_X.svg" alt="picto_X"></a>
+                <a href="./lien_insta_a_mettre"><img src="../assets/image/pictrogramme/picto_insta.svg" alt="picto_insta"></a>
+                <a href="./lien_tiktok_a_mettre"><img src="../assets/image/pictrogramme/picto_tiktok.svg" alt="picto_tiktok"></a>
+                <a href="./lien_whatsapp_a_mettre"><img src="../assets/image/pictrogramme/picto_whatsapp.svg" alt="picto_whatsapp"></a>
+            </div>
+            <div class="coordonnees">
+                <p>+336 16 04 27 82 </p>
+                <p>contact@gulifit.com</p>
+            </div>
+        </div>
+        <div class="logo_footer">
+            <img src="../assets/image/logo/logo_horizontal_footer.svg" alt="logo_gulifit">
+            <p>Tous droits réservés © Copyright 2025 GuliFit</p>
+        </div>
+    </footer>
+</body>
+</html>
