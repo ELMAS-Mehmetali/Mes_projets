@@ -172,7 +172,7 @@
             -moz-appearance: none;
             /* les 3 attributs ci-dessus permet de supprimer le style du "select" webkit pour les navigateur et moz pour firefox */
             
-            background-image: url("../image/pictrogramme/fleche_select.svg");
+            background-image: url("../image/pictogramme/fleche_select.svg");
             background-repeat: no-repeat;
             background-position: right 1rem center;
             background-size: 1.5rem;

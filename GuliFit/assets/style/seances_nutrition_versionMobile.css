@@ -80,43 +80,43 @@
 
 
 .section-filtre {
-    background: #E3E7EC;
+    background: #0E447E25;
     padding: 1.5rem;
   }
   
   .section-filtre h2 {
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+    font-weight: 400;
     color: #0E447E;
     margin-bottom: 1rem;
   }
   
   .filtres {
-    background: #E3E7EC;
+    background: transparent;
     padding: 1rem;
-    border: 1px solid #0E447E;
-    border-radius: 0.5rem;
   }
   
   .filtre-group {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
   
   .filtre-header {
     display: flex;
     align-items: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
   
   .filtre-header .icon {
-    width: 1.8rem;
+    width: 1.5rem;
     margin-right: 0.5rem;
   }
   
   .filtre-titre {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.8rem;
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+    font-weight: 800;
     color: #44B491;
   }
   
@@ -129,118 +129,134 @@
   
   .options label {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 0.3rem;
     cursor: pointer;
+    color: #0E447E;
   }
   
   .options input {
     width: 1rem;
     height: 1rem;
   }
+
+  .filtre-group.coach {
+    display: flex;
+    flex-direction: row;
+  }
   
   .filtre-group.coach select {
-    width: 100%;
+    width: 75%;
+    max-width: 25rem;
+    height: 2.2rem;
+    margin-left: 2rem;
     padding: 0.5rem;
     font-size: 1rem;
-    font-family: 'Inter', sans-serif;
-    border: 1px solid #ccc;
+    font-family: 'Inter';
     border-radius: 0.5rem;
     appearance: none;
-    background: white url("../assets/image/pictrogramme/chevron-green.svg")
-      no-repeat right 0.7rem center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../image/pictogramme/fleche_select.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
     background-size: 1rem;
+    padding-right: 3rem;
+    /* enlever la bordure par defaut du select */
+    border: none;
+    outline: none;
   }
   
   .valider {
-    display: block;
-    margin: 1rem auto 0;
-    padding: 0.7rem 2rem;
-    background: #0E447E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    max-width: 15rem;
+    background-color: #0E447E;
     color: white;
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
-  }
+    padding: 0.5rem;
+}
   
-  /* ---------------------- Session Card ---------------------- */
-  .session-card {
-    background: white;
+  /* ---------------------- SECTION SEANCE CARD ---------------------- */
+
+  .card {
+    background-color: #F2F2F2;
+    padding: 2rem;
+  }
+
+  .seance-nutrition-card{
+    background-color: #44B491;
     border-radius: 0.5rem;
-    margin: 1.5rem 0;
-    overflow: hidden;
-    font-family: 'Inter', sans-serif;
   }
   
   .card-header {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     background: #44B491;
     color: white;
-    padding: 0.7rem;
-    font-weight: bold;
-    font-size: 1rem;
-  }
-  
-  .card-header .separator {
-    margin: 0 0.5rem;
-    opacity: 0.7;
-  }
-  
-  .card-body {
     padding: 1rem;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+
+  .card-body{
+    background-color: white;
+    display: flex;
+    border-bottom-right-radius: 0.5rem;
   }
   
   .card-body img {
-    width: 100%;
-    border-radius: 0.5rem;
+    width: 50%;
     object-fit: cover;
-    margin-bottom: 1rem;
+    border-bottom-left-radius: 0.5rem;
   }
   
   .details {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5%;
   }
   
-  .detail {
+  .infos {
     display: flex;
     align-items: center;
-    gap: 0.3rem;
-    font-size: 0.9rem;
-    color: #0E447E;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #44B491;
+    font-family: 'Poppins';
+    margin-bottom: 15%;
   }
   
-  .detail img {
-    width: 1.2rem;
+  .infos img {
+    width: 1.5rem;
   }
-  
-  .card-btn {
-    display: block;
-    margin: 0 auto;
-    padding: 0.5rem 2rem;
-    background: #0E447E;
-    color: white;
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
+
+  .description{
+    display: none;
   }
-  
 
+  .card-btn{
+    display: none;
+  }
 
-
-
-
-
-
-
-
-
+  .page_nutrition {
+    display: none;
+  }
 
 /* ----------------------------SECTION PUBLICITÉ------------------------------- */
 

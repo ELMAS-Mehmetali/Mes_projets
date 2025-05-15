@@ -16,7 +16,7 @@
                 <span></span>
             </div>
             <div id="logo">
-                <img src="../assets/image/logo/logo_horizontal_contraste.svg" alt="logo_gulifit">
+                <img src="../assets/image/logo/logo_horizontal_contraste.svg" alt="logo gulifit">
             </div>
             <nav class="navbar">
                 <ul>
@@ -28,7 +28,7 @@
                 </ul>
             </nav>
             <div id="login">
-                <a href="./connexion.php"><img src="../assets/image/pictrogramme/connexion.svg" alt="login"></a>
+                <a href="./connexion.php"><img src="../assets/image/pictogramme/connexion.svg" alt="login"></a>
             </div>
         </section>
         <section id="accueil">
@@ -56,10 +56,10 @@
     <main>
         <section class="a_propos">
             <div class="photo_guli">
-                <img src="../assets/image/a propos/guli.jpg" alt="Photo_de_guli">
+                <img src="../assets/image/a_propos/guli.jpg" alt="Photo de guli">
             </div>
             <div class="description">
-                <img src="../assets/image/logo/logo_vertical.svg" alt="logo_gulifit">
+                <img src="../assets/image/logo/logo_vertical.svg" alt="logo gulifit">
                 <h1>UNE PASSION AU SERVICE<br>DE VOTRE PROGRESSION</h1>
                 <p>Découvrez mon parcours, mes valeurs et ma mission : vous accompagner dans votre évolution sportive, quel que soit votre niveau. Parce que je crois en un sport accessible, motivant et adapté à chacun.</p>
                 <div class="gulifit-button">
@@ -69,14 +69,14 @@
         </section>
         <section class="seances_nutrition">
             <div class="seance">
-                <img src="../assets/image/accueil/accueil_seance.jpg" alt="un_homme_position pompe">
+                <img src="../assets/image/accueil/accueil_seance.jpg" alt="un homme position pompe">
                 <h1>Des séances<br>pensées pour vous</h1>
                 <div class="button">
                     <a href="./seance.php">VOIR LES SÉANCES</a>
                 </div>
             </div>
             <div class="nutrition">
-                <img src="../assets/image/accueil/accueil_nutrition.jpg" alt="une_personne_qui_coupe_des_légumes">
+                <img src="../assets/image/accueil/accueil_nutrition.jpg" alt="une personne qui coupe des légumes">
                 <h1>L’équilibre au cœur de<br>votre performance</h1>
                 <div class="button">
                     <a href="./nutrition.php">VOIR LES RECETTES</a>
@@ -85,7 +85,7 @@
         </section>
         <section class="contact">
             <div class="contact_1">
-                <img src="../assets/image/accueil/accueil_contact.jpg" alt="Un_coach_en_entretien_avec_un_adherent">
+                <img src="../assets/image/accueil/accueil_contact.jpg" alt="Un coach en entretien avec un adherent">
             </div>
             <div class="contact_2">
                 <p>Vous aussi, vous souhaitez avoir un programme sur-mesure et être accompagné par un coach professionnel, alors n’attendez plus !</p>
@@ -98,7 +98,7 @@
             <div class="temoignage">
                 <div class="commentaires">
                     <div class="photo">
-                        <img src="../assets/image/accueil/accueil_temoignage_coach.svg" alt="photo_de_profil_d'un_coach">
+                        <img src="../assets/image/accueil/accueil_temoignage_coach.svg" alt="photo de profil d'un coach">
                     </div>
                     <h2>Durand Thomas</h2>
                     <p>
@@ -108,7 +108,7 @@
             </div>
             <div class="affiche_inscription">
                 <div class="inscription_img">
-                    <img src="../assets/image/accueil/accueil_inscription_coach.jpg" alt="Un_coach_qui_corrige_la_posture_d'une_sportive">
+                    <img src="../assets/image/accueil/accueil_inscription_coach.jpg" alt="Un coach qui corrige la posture d'une sportive">
                 </div>
                 <div class="inscription_txt">
                     <p>Vous êtes coach diplômé et souhaitez proposer votre accompagnement et vos séances, rejoignez Gulifit !</p>
@@ -150,10 +150,10 @@
         </div>
         <div class="contact">
             <div class="picto">
-                <a href="./lien_x_a_mettre"><img src="../assets/image/pictrogramme/picto_X.svg" alt="picto_X"></a>
-                <a href="./lien_insta_a_mettre"><img src="../assets/image/pictrogramme/picto_insta.svg" alt="picto_insta"></a>
-                <a href="./lien_tiktok_a_mettre"><img src="../assets/image/pictrogramme/picto_tiktok.svg" alt="picto_tiktok"></a>
-                <a href="./lien_whatsapp_a_mettre"><img src="../assets/image/pictrogramme/picto_whatsapp.svg" alt="picto_whatsapp"></a>
+                <a href="./lien_x_a_mettre"><img src="../assets/image/pictogramme/picto_X.svg" alt="picto_X"></a>
+                <a href="./lien_insta_a_mettre"><img src="../assets/image/pictogramme/picto_insta.svg" alt="picto_insta"></a>
+                <a href="./lien_tiktok_a_mettre"><img src="../assets/image/pictogramme/picto_tiktok.svg" alt="picto_tiktok"></a>
+                <a href="./lien_whatsapp_a_mettre"><img src="../assets/image/pictogramme/picto_whatsapp.svg" alt="picto_whatsapp"></a>
             </div>
             <div class="coordonnees">
                 <p>+336 16 04 27 82 </p>
@@ -161,7 +161,7 @@
             </div>
         </div>
         <div class="logo_footer">
-            <img src="../assets/image/logo/logo_horizontal_footer.svg" alt="logo_gulifit">
+            <img src="../assets/image/logo/logo_horizontal_footer.svg" alt="logo gulifit">
             <p>Tous droits réservés © Copyright 2025 GuliFit</p>
         </div>
     </footer>

@@ -16,7 +16,7 @@
                 <span></span>
             </div>
             <div id="logo">
-                <img src="../assets/image/logo/logo_horizontal_contraste.svg" alt="logo_gulifit">
+                <img src="../assets/image/logo/logo_horizontal_contraste.svg" alt="logo gulifit">
             </div>
             <nav class="navbar">
                 <ul>
@@ -28,7 +28,7 @@
                 </ul>
             </nav>
             <div id="login">
-                <a href="./connexion.php"><img src="../assets/image/pictrogramme/connexion.svg" alt="login"></a>
+                <a href="./connexion.php"><img src="../assets/image/pictogramme/connexion.svg" alt="login"></a>
             </div>
         </section>
     </header>
@@ -77,14 +77,14 @@
                         <label for="password">Mot de passe</label>
                         <div class="password-container">
                             <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe">
-                            <img src="../assets/image/pictrogramme/oeil_mdp.svg" alt="toggle password visibility" id="toggle-password">
+                            <img src="../assets/image/pictogramme/oeil_mdp.svg" alt="toggle password visibility" id="toggle-password">
                         </div>
                     </div>
                     <div class="form-group password-group">
                         <label for="confirm_password">Confirmation de mot de passe</label>
                         <div class="password-container">
                             <input type="password" id="confirm_password" name="confirm_password" placeholder="Entrez à nouveau votre mot de passe">
-                            <img src="../assets/image/pictrogramme/oeil_mdp.svg" alt="toggle password visibility" id="toggle-confirm-password">
+                            <img src="../assets/image/pictogramme/oeil_mdp.svg" alt="toggle password visibility" id="toggle-confirm-password">
                         </div>
                     </div>                    
                     <button type="submit">INSCRIPTION</button>
@@ -113,10 +113,10 @@
         </div>
         <div class="contact">
             <div class="picto">
-                <a href="./lien_x_a_mettre"><img src="../assets/image/pictrogramme/picto_X.svg" alt="picto_X"></a>
-                <a href="./lien_insta_a_mettre"><img src="../assets/image/pictrogramme/picto_insta.svg" alt="picto_insta"></a>
-                <a href="./lien_tiktok_a_mettre"><img src="../assets/image/pictrogramme/picto_tiktok.svg" alt="picto_tiktok"></a>
-                <a href="./lien_whatsapp_a_mettre"><img src="../assets/image/pictrogramme/picto_whatsapp.svg" alt="picto_whatsapp"></a>
+                <a href="./lien_x_a_mettre"><img src="../assets/image/pictogramme/picto_X.svg" alt="picto_X"></a>
+                <a href="./lien_insta_a_mettre"><img src="../assets/image/pictogramme/picto_insta.svg" alt="picto_insta"></a>
+                <a href="./lien_tiktok_a_mettre"><img src="../assets/image/pictogramme/picto_tiktok.svg" alt="picto_tiktok"></a>
+                <a href="./lien_whatsapp_a_mettre"><img src="../assets/image/pictogramme/picto_whatsapp.svg" alt="picto_whatsapp"></a>
             </div>
             <div class="coordonnees">
                 <p>+336 16 04 27 82 </p>
@@ -124,7 +124,7 @@
             </div>
         </div>
         <div class="logo_footer">
-            <img src="../assets/image/logo/logo_horizontal_footer.svg" alt="logo_gulifit">
+            <img src="../assets/image/logo/logo_horizontal_footer.svg" alt="logo gulifit">
             <p>Tous droits réservés © Copyright 2025 GuliFit</p>
         </div>
     </footer>

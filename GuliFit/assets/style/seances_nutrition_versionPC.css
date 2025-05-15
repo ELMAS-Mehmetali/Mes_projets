@@ -77,12 +77,238 @@
             font-family: 'Bebas Neue';
         }
 
+/* ----------------------------SECTION FILTRE------------------------------- */
+
+        .filtres {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1rem;
+        }
+
+        .filtre-group {
+        flex: 1 1 30%; /* Chaque groupe prend environ 30% de la largeur */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        }
+
+        .options{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .filtre-group.coach select {
+        width: 100%;
+        max-width: none;
+        }
+
+        .valider {
+        order: 4; /* Place le bouton en derniere position sous ma 3ᵉ colonne (coach)*/
+        flex: 0 0 25%; /* permet de laisser deux colonnes vides et prendre 30% de largeur a la fin de la div*/
+        margin-left: auto;
+        width: auto;
+        }
+
+        .valider:hover {
+            background-color: #44B491;
+        }
 
 
 
+/* ----------------------------SECTION SEANCE CARD------------------------------- */
 
+        .seance-nutrition-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;      /* 2 colonnes égales */
+            grid-template-rows: 1fr 1fr 1fr 1fr; /* 6 lignes égales */
+            grid-template-areas:
+                "image header"
+                "image details"
+                "image details"
+                "image description"
+                "image description"
+                "image button";
+            overflow: hidden;
+            background: white;
+        }
 
+        .seance-nutrition-card .card-body {
+            display: contents; /* Pour que l’img et le détails utilisent le grid défini ci-dessus */
+        }
 
+        .seance-nutrition-card .card-header {
+            grid-area: header;
+            background: #44B491;
+            color: white;
+            padding: 1rem;
+            font-family: 'Poppins';
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0.5rem;
+        }
+
+        .seance-nutrition-card .card-body > img {
+            grid-area: image;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-bottom-left-radius: 0.5rem;
+        }
+
+        .seance-nutrition-card .details {
+            grid-area: details;
+            padding: 1rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 1rem 1rem 0;
+        }
+        
+        .infos {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 0;
+        }
+
+        .infos img {
+            width: 3rem;
+        }
+
+        .infos span {
+            color: black;
+        }
+
+        .seance-nutrition-card .description {
+            grid-area: description;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 1rem 1rem;
+            color: black;
+            font-size: 1.25rem;
+            font-family: 'inter';
+        }
+
+        .seance-nutrition-card .card-btn {
+            grid-area: button;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            padding: 0.5rem;
+            background: #0E447E;
+            color: white;
+            font-family: 'Montserrat';
+            font-size: 1.5rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            margin: 1rem auto;
+        }
+
+        .seance-nutrition-card .card-btn:hover{
+            background-color: #44B491;
+        }
+
+/* ----------------------------SECTION PAGE CHAINE------------------------------- */
+
+        .page_nutrition_seance {
+            background-color: #0E447E25;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card_nutrition_seance {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr 2fr 1fr;
+            grid-template-areas:
+                "image titre"
+                "image intro"
+                "image button";
+            background-color: white;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            margin: 5rem;
+            width: 90%;
+            height: 50vh;
+        }
+
+        .image_page_chaine {
+            grid-area: image;
+        }
+
+        .image_page_chaine img {
+            width: 100%;
+            height: 100%;
+            border-top-left-radius: 0.5rem;
+            border-bottom-left-radius: 0.5rem;
+            object-fit: cover;
+        }
+
+        .intro_nutrition_seance {
+            padding: 2rem;
+        }
+
+        .intro_nutrition_seance h2 {
+            grid-area: titre;
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            font-family: 'Poppins';
+            font-weight: 600;
+            color: #44B491;
+            font-style: italic;
+        }
+
+        .intro_nutrition_seance p {
+            grid-area: intro;
+            padding: 1rem;
+            font-family: 'inter';
+            font-size: 1rem;
+        }
+
+        .intro_nutrition_seance .card-btn{
+            grid-area: button;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 1rem;
+            padding: 0.5rem 2rem;
+            background-color: #44B491;
+            border-radius: 0.5rem;
+            width: 30%;
+            margin: 2rem 3rem 0 3rem;
+            border: 0.2rem solid #44B491;
+            cursor: pointer;
+        }
+        
+        .intro_nutrition_seance .card-btn a {
+            font-family: "Montserrat";
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .intro_nutrition_seance .card-btn:hover {
+            background-color: white;
+        }
+        .intro_nutrition_seance .card-btn:hover a {
+            color: #44B491;
+        }
 
 /* ----------------------------SECTION PUBLICITÉ------------------------------- */
 

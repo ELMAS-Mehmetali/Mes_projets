@@ -9,12 +9,10 @@ function togglePasswordVisibility(inputId, toggleId) {
     : "../assets/image/pictogramme/oeil_mdp.svg";
 }
 
-document.getElementById("toggle-password").addEventListener("click", () => {
-  togglePasswordVisibility("password", "toggle-password");
+document.getElementById("toggle-mot-de-passe").addEventListener("click", () => {
+  togglePasswordVisibility("mot-de-passe", "toggle-mot-de-passe");
 });
 
-document
-  .getElementById("toggle-confirm-password")
-  .addEventListener("click", () => {
-    togglePasswordVisibility("confirm_password", "toggle-confirm-password");
-  });
+document.getElementById("toggle-confirmation").addEventListener("click", () => {
+  togglePasswordVisibility("confirmation", "toggle-confirmation");
+});

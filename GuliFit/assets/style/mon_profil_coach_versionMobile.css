@@ -163,6 +163,24 @@ body {
     margin-top: 0.5rem;
 }
 
+/* sert a enlever l'oeil déjà existant dans microsoft edge lorsque je tape le mot de passe */
+input[type="password"]::-ms-reveal {
+    display: none;
+}
+
+.password-container{
+    position: relative;
+}
+
+.password-container img {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 1.5rem;
+    height: auto;
+    cursor: pointer;
+}
+
 .buttons {
     display: flex;
     justify-content: flex-start;

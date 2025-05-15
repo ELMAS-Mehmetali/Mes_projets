@@ -195,7 +195,7 @@ input[type="password"]::-ms-reveal {
 
 .password-container img {
     position: absolute;
-    right: 1rem;
+    right: 0.5rem;
     width: 1.5rem;
     height: auto;
     cursor: pointer;
@@ -213,4 +213,16 @@ button {
     border: 0.2rem solid #44B491;
     border-radius: 0.4rem;
     transition: background 0.3s;
+}
+
+/* ----------------------------SECTION PUBLICITÉ------------------------------- */
+
+.publicité{
+    display: none;
+}
+
+/* ----------------------------SECTION FOOTER------------------------------- */
+
+footer{
+    display: none;
 }

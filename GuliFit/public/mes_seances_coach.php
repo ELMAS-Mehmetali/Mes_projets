@@ -28,7 +28,7 @@
                 </ul>
             </nav>
             <div id="login">
-                <a href="./connexion.php"><img src="../assets/image/pictrogramme/connexion.svg" alt="login"></a>
+                <a href="./connexion.php"><img src="../assets/image/pictogramme/connexion.svg" alt="login"></a>
             </div>
         </section>
     </header>
