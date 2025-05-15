@@ -62,8 +62,9 @@
 
 /* ----------------------------SECTION PAGE_HEADER------------------------------- */
 
-        .page_header{
+        .page_header {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             background: url(../image/contact/contact.jpg); /* image à changer */
@@ -71,10 +72,25 @@
             height: 20vh;
         }
 
-        .page_header h1{
+        .page_header h1 {
             font-size: 4.5rem;
             color: white;
             font-family: 'Bebas Neue';
+            color: #0E447E;
+        }
+
+        .page_header h2 {
+            font-size: 2rem;
+            font-style: italic;
+            font-family: 'Poppins';
+            color: #0E447E;
+        }
+
+        .page_header h3 {
+            font-size: 1rem;
+            font-family: 'inter';
+            font-style: italic;
+            color: #0E447E;
         }
 
 /* ----------------------------SECTION FILTRE------------------------------- */
