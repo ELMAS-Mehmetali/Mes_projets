@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------HEADER STYLE------------------------------- */
+
+#head {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.7vh 2.7vh;
+}
+
+.menu-burger {
+    position: relative;
+    width: 5.4vh;
+    height: 4.3vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-burger span {
+    position: absolute;
+    width: 100%;
+    height: 0.9vh;
+    background-color: #44B491;
+    border-radius: 0.4vh;
+}
+
+.menu-burger span:nth-child(1) {
+    top: 0;
+    left: 50%;
+}
+.menu-burger span:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.menu-burger span:nth-child(3) {
+    bottom: 0;
+    left: 50%;
+}
+
+#logo img {
+    display: flex;
+    justify-content: center;
+    width: 20.2vh;
+    height: auto;
+}
+
+.navbar {
+    display: none;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.7vh;
+}
+
+#login img {
+    width: 4.8vh;
+    height: auto;
+}
+
+/* ----------------------------SECTION PAGE_HEADER------------------------------- */
+
+.page_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #44B491;
+    width: 100%;
+    height: 12vh;
+}
+
+.page_header h1{
+    font-size: 4rem;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+}
+
+/* ----------------------------MISE EN PAGE DU FORMULAIRE------------------------------- */
+
+.mise_en_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+/* ----------------------------SECTION INTRO DU FORMULAIRE------------------------------- */
+
+.intro{
+    text-align: center;
+    padding: 5rem 2.5rem;
+}
+
+.intro h1{
+    font-family: 'Bebas Neue';
+    font-size: 3rem;
+    color: #0E447E;
+}
+
+.intro h2{
+    padding-top: 1rem;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    color: #0E447E;
+}
+
+.intro p{
+    font-family: 'Poppins';
+    font-size: 1rem;
+    padding-top: 1rem;
+    color: #0E447E;
+    line-height: 1.5;
+}
+
+.intro .warning-coach{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: red;
+}
+
+/* ----------------------------SECTION CONTENU DU FORMULAIRE------------------------------- */
+
+.contact-form {
+    width: 100%;
+    max-width: 20rem;
+    background: #f2f2f2;
+    padding-bottom: 5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.3rem;
+    color: #0E447E;
+    margin-bottom: 0.6rem;
+    font-family: 'Poppins';
+    font-weight:550;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    color: black;
+    background: white;
+    border: 0.1rem solid black;
+    border-radius: 0.4rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input::placeholder{
+    color: grey;
+    font-family: 'inter';
+    font-style: italic;
+}
+
+.form-group input:focus{
+    border: 0.1rem solid black;
+}
+
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;       
+}
+
+
+/* sert a enlever l'oeil déjà existant dans microsoft edge lorsque je tape le mot de passe */
+input[type="password"]::-ms-reveal {
+    display: none;
+}
+
+.password-container input {
+    flex: 1;
+    padding-right: 3rem;
+}
+
+.password-container img {
+    position: absolute;
+    right: 0.5rem;
+    width: 1.5rem;
+    height: auto;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    background: #44B491;
+    border: 0.2rem solid #44B491;
+    border-radius: 0.4rem;
+    transition: background 0.3s;
+}
+
+/* ----------------------------SECTION PUBLICITÉ------------------------------- */
+
+.publicité{
+    display: none;
+}
+
+/* ----------------------------SECTION FOOTER------------------------------- */
+
+footer{
+    display: none;
+}

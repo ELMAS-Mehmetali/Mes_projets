@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------HEADER STYLE------------------------------- */
+
+#head {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.7vh 2.7vh;
+}
+
+.menu-burger {
+    position: relative;
+    width: 5.4vh;
+    height: 4.3vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-burger span {
+    position: absolute;
+    width: 100%;
+    height: 0.9vh;
+    background-color: #44B491;
+    border-radius: 0.4vh;
+}
+
+.menu-burger span:nth-child(1) {
+    top: 0;
+    left: 50%;
+}
+.menu-burger span:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.menu-burger span:nth-child(3) {
+    bottom: 0;
+    left: 50%;
+}
+
+#logo img {
+    display: flex;
+    justify-content: center;
+    width: 20.2vh;
+    height: auto;
+}
+
+.navbar {
+    display: none;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.7vh;
+}
+
+#login img {
+    width: 4.8vh;
+    height: auto;
+}
+
+/* ----------------------------SECTION PAGE_HEADER------------------------------- */
+
+.page_header {
+    display: none;
+}
+
+/* ----------------------------MISE EN PAGE GENERALE------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ----------------------------MISE EN PAGE ASIDE------------------------------- */
+
+.menu {
+    display: none;
+}
+
+/* ----------------------------MISE EN PAGE CENTRALE------------------------------- */
+
+.seances_recettes-content {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.illustration-section,
+.info-section {
+    background-color: #f2f2f2;
+    padding: 2rem;
+}
+
+.illustration-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.illustration-section p {
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: black;
+    font-size: 1.1rem;
+    text-align: left;
+    margin: 1rem;
+}
+
+.illustration-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.illustration {
+    width: 100%;
+    max-width: 8rem;
+    height: 8rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid grey;
+    font-family: 'Inter';
+    margin: 1rem;
+}
+
+.illustration-container input {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-family: 'Inter';
+}
+
+.info-section .form-group {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.info-section label {
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: black;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    width: auto;
+    text-align: left;
+}
+
+.info-section input,
+.info-section select {
+    font-family: 'Inter';
+    font-size: 1rem;
+    width: 100%;
+    border: 0.1rem solid grey;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.form-group select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../image/pictogramme/fleche_select.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1.1rem;
+    padding-right: 3rem;
+}
+
+.form-group select option {
+    color: #0E447E;
+    font-weight: 550;
+    font-family: 'Inter';
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.modify-button,
+.delete-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.modify-button {
+    background-color: #44b491;
+    color: white;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    margin-left: 1rem;
+}
+
+/* ----------------------------SECTION PUBLICITÉ------------------------------- */
+
+.publicité {
+    display: none;
+}
+
+/* ----------------------------SECTION FOOTER------------------------------- */
+
+footer {
+    display: none;
+}
