@@ -215,6 +215,16 @@ button {
     transition: background 0.3s;
 }
 
+.errorMsg{
+        color: red;
+        font-size: 1.2em;
+        font-weight: bold;
+        border: 2px solid red;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        margin: 1rem 0;
+}
+
 /* ----------------------------SECTION PUBLICITÉ------------------------------- */
 
 .publicité{

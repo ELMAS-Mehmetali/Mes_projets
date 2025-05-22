@@ -214,13 +214,13 @@
   .card-body{
     background-color: white;
     display: flex;
+    flex-direction: column;
     border-bottom-right-radius: 0.5rem;
   }
   
   .card-body img {
-    width: 50%;
+    width: 100%;
     object-fit: cover;
-    border-bottom-left-radius: 0.5rem;
   }
   
   .details {
@@ -228,33 +228,54 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 5%;
+    margin-left: 30%;
   }
   
   .infos {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
     font-size: 1.2rem;
     font-weight: 700;
     color: #44B491;
     font-family: 'Poppins';
-    margin-bottom: 15%;
+    margin: 5% 0;
   }
   
   .infos img {
-    width: 1.5rem;
+    width: 3rem;
   }
 
   .description{
     display: none;
   }
 
-  .card-btn{
-    display: none;
+.seance-nutrition-card .card-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 0.5rem;
+    background: #0E447E;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 1rem auto;
   }
 
-  .page_nutrition {
+  .seance-nutrition-card .card-btn a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+  }
+  
+  
+
+  .page_nutrition_seance {
     display: none;
   }
 

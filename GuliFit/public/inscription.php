@@ -1,3 +1,4 @@
+<?php require("../actions/inscriptionAction.php");?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -48,6 +49,18 @@
                 <p>Rejoignez-nous pour partager vos connaissances, aider chacun à atteindre ses objectifs sportifs et élargir votre réseau grâce à notre formulaire de contact.</p>
             </section>
             <section class="contact-form">
+            <?php if(isset($errorMsg)){ 
+                echo '<p style="
+                    color: red;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    border: 5px solid red;
+                    border-radius: 0.5rem;
+                    padding: 1rem;
+                    margin: 1rem 0;">'.$errorMsg.'</p>';
+                }
+            ?>    
+            <br><br>
                 <form method="POST">
                     <div class="form-group">
                         <label for="nom">Nom</label>
@@ -87,7 +100,7 @@
                             <img src="../assets/image/pictogramme/oeil_mdp.svg" alt="toggle password visibility" id="toggle-confirm-password">
                         </div>
                     </div>                    
-                    <button type="submit">INSCRIPTION</button>
+                    <button type="submit" name='validate'>INSCRIPTION</button>
                 </form>
             </section>
         </section>

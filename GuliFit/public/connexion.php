@@ -1,3 +1,4 @@
+<?php require('../actions/connexionAction.php'); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -57,7 +58,7 @@
                 </p>
             </section>
             <section class="connexion">
-                <form>
+                <form method="POST">
                     <div class="form-group">
                             <label for="email">E-mail</label>
                             <input type="email" name="email" placeholder="Entrez votre adresse mail" required>
@@ -67,10 +68,23 @@
                             <input type="password" name="password" placeholder="Entrez votre mot de passe" required>
                     </div>
                     <div class="connect">
-                            <button type="submit">CONNEXION</button>
+                            <button type="submit" name='validate'>CONNEXION</button>
                             <a href="./forgot_password.php" class="forgot-password">Mot de passe oublié?</a>
                     </div>
                 </form>
+                <br><br>
+                <?php if(isset($errorMsg)) { 
+                    echo '<p style="
+                    color: red;
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    border: 5px solid red;
+                    border-radius: 0.5rem;
+                    padding: 1rem;
+                    margin: 1rem 0;">'.$errorMsg.'</p>';
+                    }
+                    ?>
+                <br><br>
                 <div class="trait"></div>
                 <div>
                     <a href="inscription.php" class="register-link">Vous n'avez pas de compte?</a>

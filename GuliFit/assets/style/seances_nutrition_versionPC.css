@@ -402,6 +402,11 @@
             color: white;
         }
 
+        .navbar_foot li a:hover, .navbar2_foot li a:hover{
+            text-decoration: none;
+            color: #0E447E;
+        }
+
         .picto img{
             width: 4rem;
             margin: 2px;
