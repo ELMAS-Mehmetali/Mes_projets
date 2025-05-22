@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin-top: 30px;
+}
+
+header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 10%, rgba(0,0,0,0.5) 20%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 1) 90%), url('../image/accueil/accueil.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 50%;
+    position: relative;
+    height: 100vh;
+}
+
+/* ----------------------------HEADER STYLE------------------------------- */
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.7vh 2.7vh;
+}
+
+.menu-burger {
+    position: relative;
+    width: 5.4vh;
+    height: 4.3vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-burger span {
+    position: absolute;
+    width: 100%;
+    height: 0.9vh;
+    background-color: #44B491;
+    border-radius: 0.4vh;
+}
+
+.menu-burger span:nth-child(1) {
+    top: 0;
+    left: 50%;
+}
+.menu-burger span:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.menu-burger span:nth-child(3) {
+    bottom: 0;
+    left: 50%;
+}
+
+#logo img {
+    display: flex;
+    justify-content: center;
+    width: 20.2vh;
+    height: auto;
+}
+
+.navbar {
+    display: none;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.7vh;
+}
+
+#login img {
+    width: 4.8vh;
+    height: auto;
+}
+
+/* ----------------------------PREMIERE SECTION PAGE D'ACCUEIL------------------------------- */
+
+#haut_de_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#accueil h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 4vh;
+    font-weight: 600;
+    margin: 4vh 0;
+    padding: 0 6.8vh;
+}
+
+.mobile-break {
+    display: inline;
+}
+
+#accueil h2 {
+    display: none;
+}
+
+#bas_de_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#CTA-go {
+    margin-top: 5.5vh;
+    margin-bottom: 5.5vh;
+    background-color: #44B491;
+    border: 0.7vh solid #44B491;
+    border-radius: 1.3vh;
+    padding: 1vh 8vh;
+}
+
+#CTA-go a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+/* ----------------------------DEUXIEME SECTION PAGE D'ACCUEIL------------------------------- */
+
+.accueil-text {
+    display: none;
+}
+
+.coach-text {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 4.1vh;
+    font-weight: 600;
+    padding: 2vh;
+}
+
+#register {
+    background-color: #0E447E;
+    border: 0.7vh solid #0E447E;
+    border-radius: 1.3vh;
+    padding: 1vh 3vh;
+}
+
+#register a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 3.2vh;
+    font-weight: 650;
+}
+
+main{
+    background-color: #F2F2F2;
+}
+
+/* ----------------------------SECTION A PROPOS------------------------------- */
+
+.a_propos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description h1 {
+    order: 1;
+    color: #44B491;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 500;
+    padding: 2.5rem 2.5rem 0.8rem 2.5rem;
+    text-align: center;
+}
+
+.photo_guli img {
+    order: 2;
+    width: 100%;
+}
+
+.description img {
+    display: none;
+}
+
+.gulifit-button{
+    order: 4;
+    background-color: #44B491;
+    border: 0.7vh solid #44B491;
+    width: 80%;
+    padding: 1.5rem;
+    border-radius: 1vh;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.gulifit-button a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.a_propos p {
+    order: 3;
+    font-family: 'inter';
+    font-size: 1.5rem;
+    padding: 1rem 4rem;
+}
+
+/* ------------------SECTION SEANCES & RECETTES------------------------------- */
+
+.seances_nutrition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seances_nutrition .seance,
+.seances_nutrition .nutrition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 2rem;
+    border-radius: 0.8rem;
+    position: relative;
+}
+
+.seances_nutrition img {
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    border-radius: 2%;
+    margin-top: 1rem;
+    object-fit: contain;
+    background: black;
+}
+
+.nutrition img{
+    background: linear-gradient(
+        to bottom, 
+        rgba(0,0,0,1) 0%, 
+        rgba(0,0,0,0.5) 15%, 
+        transparent 30%, 
+        transparent 70%, 
+        rgba(0,0,0,0.5) 85%, 
+        rgba(0,0,0,1) 100%
+    );
+}
+
+.seance h1{
+    display: none;
+    font-family: 'Poppins';
+}
+
+.nutrition h1{
+    display: none;
+    font-family: 'Poppins';
+}
+
+.seances_nutrition .button{
+    background-color: #44B491;
+    border: 0.7vh solid #44B491;
+    width: 80%;
+    padding: 1.5rem;
+    border-radius: 1vh;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.seances_nutrition .button a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* ----------------------------SECTION CONTACT------------------------------- */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contact_1 img{
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.contact_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 2rem;
+    border-radius: 0.8rem;
+    position: relative;
+}
+
+.contact p {
+    font-family: 'inter';
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0rem 1.5rem 2rem 1.5rem;
+}
+
+.contact_2 .button_contact{
+    background-color: #44B491;
+    border: 0.7vh solid #44B491;
+    width: 80%;
+    padding: 1.5rem;
+    border-radius: 1vh;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.button_contact a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* ----------------------------SECTION INSCRIPTION------------------------------- */
+
+.inscription{
+    display: flex;
+    flex-direction: column;
+}
+
+.temoignage{
+    width: 100%;
+}
+
+.affiche_inscription{
+    width: 100%;
+}
+
+.temoignage{
+    position: relative;
+}
+
+.photo {
+    z-index: 1;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    background-color: white;
+    border-radius: 100%;
+    width: 50%;
+    border: solid white 1rem;
+}
+
+.photo img{
+    border-radius: 100%;
+}
+
+.commentaires{
+    z-index: 0;
+    top: 50%;
+    background-color: #44B491;
+    color: white;
+    padding: 3rem;
+}
+
+.commentaires h2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: 'inter';
+    font-size: 2.5rem;
+}
+
+.commentaires p{
+    font-family: 'inter';
+    font-size: 1.5rem;
+}
+
+.affiche_inscription, .inscription_img, .inscription_txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inscription_img img{
+    width: 90%;
+    border-radius: 1rem;
+    margin-top: 10%;
+}
+
+.inscription_txt{
+    font-family: 'inter';
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.button_register{
+    background-color: #44B491;
+    border: 0.7vh solid #44B491;
+    width: 80%;
+    padding: 1.5rem;
+    border-radius: 1vh;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    
+}
+
+.button_register a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* ----------------------------SECTION PUBLICITÉ------------------------------- */
+
+.publicité{
+    display: none;
+}
+
+/* ----------------------------SECTION FOOTER------------------------------- */
+
+footer{
+    display: none;
+}
