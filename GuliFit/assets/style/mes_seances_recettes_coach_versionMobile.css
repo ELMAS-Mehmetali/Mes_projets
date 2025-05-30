@@ -197,6 +197,7 @@ body {
     margin-top: 2rem;
 }
 
+.add-button,
 .modify-button,
 .delete-button {
     display: flex;
@@ -210,6 +211,11 @@ body {
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+
+.add-button {
+    background-color: #0E447E;
+    color: white;
 }
 
 .modify-button {

@@ -72,7 +72,7 @@
                     </div>
                     <div class="form-group">
                         <label for="date_naissance">Date de naissance</label>
-                        <input type="text" id="date_naissance" name="date_naissance" placeholder="JJ / MM / AAAA">
+                        <input type="date" id="date_naissance" name="date_naissance" placeholder="JJ / MM / AAAA">
                     </div>
                     <div class="form-group">
                         <label for="localisation">Localisation</label>

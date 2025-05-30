@@ -49,7 +49,7 @@ if(isset($_POST['validate'])){
 
             //Authentifie l'utilisateur sur le site et récupère ses données dans des variables globales "SESSION"
             $_SESSION['auth'] = true;
-            $_SESSION['id'] = $usersInfos['id'];
+            $_SESSION['id'] = $usersInfos['id_utilisateur'];
             $_SESSION['nom'] = $usersInfos['nom_utilisateur'];
             $_SESSION['prenom'] = $usersInfos['prenom_utilisateur'];
             $_SESSION['email'] = $usersInfos['mail_utilisateur'];

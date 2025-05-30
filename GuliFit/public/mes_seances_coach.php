@@ -1,3 +1,7 @@
+<?php
+require_once("../actions/seancesAction.php");
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -40,7 +44,7 @@
             <h2>Guli ELMAS</h2>
             <ul>
                 <li><a href="./mon_profil_coach.php">MON PROFIL</a></li>
-                <li><a href="./mes_seances_coach.php">MES SÉANCES</a><img src="../assets/image/pictrogramme/fleche_profil_vert.svg" alt="flèche"></li>
+                <li><a href="./mes_seances_coach.php">MES SÉANCES</a><img src="../assets/image/pictogramme/fleche_profil_vert.svg" alt="flèche"></li>
                 <li><a href="./mes_recettes_coach.php">MES RECETTES</a></li>
                 <li><a href="./deconnexion.php">DÉCONNEXION</a></li>
             </ul>
@@ -61,7 +65,7 @@
                 <form>
                     <div class="form-group">
                         <label for="nom_seance">Nom de la séance</label>
-                        <input type="text" id="nom_seance" placeholder="Ex: Course fractionnée">
+                        <input type="text" id="nom_seance" name="nom_seance" placeholder="Ex: Course fractionnée">
                     </div>
                     <div class="form-group">
                         <label for="categorie">Catégorie</label>
@@ -82,19 +86,20 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="Duree">Durée</label>
-                        <input type="text" id="Duree" placeholder="Ex: 45 minutes">
+                        <label for="duree">Durée</label>
+                        <input type="text" id="duree" name="duree" placeholder="Ex: 45 minutes">
                     </div>
                     <div class="form-group">
                         <label for="contenu">Contenu</label>
-                        <input type="text" id="contenu" placeholder="Exemple de contenu:
+                        <input type="text" id="contenu" name="contenu" placeholder="Exemple de contenu:
                         Echauffement : 10 min de vélo">
                     </div>
                     <div class="form-group">
                         <label for="description">Description</label>
-                        <input type="text" id="description" placeholder="Rédigez un petit texte de la séance concernant la séance">
+                        <input type="text" id="description" name="description" placeholder="Rédigez un petit texte de la séance concernant la séance">
                     </div>
                     <div class="buttons">
+                        <button type="button" class="add-button">Ajouter</button>
                         <button type="button" class="modify-button">Modifier</button>
                         <button type="button" class="delete-button">Supprimer</button>
                     </div>
@@ -129,10 +134,10 @@
         </div>
         <div class="contact">
             <div class="picto">
-                <a href="./lien_x_a_mettre"><img src="../assets/image/pictrogramme/picto_X.svg" alt="picto_X"></a>
-                <a href="./lien_insta_a_mettre"><img src="../assets/image/pictrogramme/picto_insta.svg" alt="picto_insta"></a>
-                <a href="./lien_tiktok_a_mettre"><img src="../assets/image/pictrogramme/picto_tiktok.svg" alt="picto_tiktok"></a>
-                <a href="./lien_whatsapp_a_mettre"><img src="../assets/image/pictrogramme/picto_whatsapp.svg" alt="picto_whatsapp"></a>
+                <a href="./lien_x_a_mettre"><img src="../assets/image/pictogramme/picto_X.svg" alt="picto_X"></a>
+                <a href="./lien_insta_a_mettre"><img src="../assets/image/pictogramme/picto_insta.svg" alt="picto_insta"></a>
+                <a href="./lien_tiktok_a_mettre"><img src="../assets/image/pictogramme/picto_tiktok.svg" alt="picto_tiktok"></a>
+                <a href="./lien_whatsapp_a_mettre"><img src="../assets/image/pictogramme/picto_whatsapp.svg" alt="picto_whatsapp"></a>
             </div>
             <div class="coordonnees">
                 <p>+336 16 04 27 82 </p>

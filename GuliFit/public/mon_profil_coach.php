@@ -1,3 +1,8 @@
+<?php
+require_once("../actions/profilAction.php");
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -59,50 +64,60 @@
             </div>
             <div class="info-section">
                 <h2>Mes coordonnées</h2>
-                <form>
-                    <div class="form-group">
-                        <label for="nom">Nom</label>
-                        <input type="text" id="nom" value="Nom enregistré">
+            <form action="../actions/profilAction.php" method="POST">
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" value="<?= $usersInfos['nom_utilisateur'] ?>">
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" value="<?= $usersInfos['prenom_utilisateur'] ?>">
+                </div>
+                <div class="form-group">
+                    <label for="date-naissance">Date de naissance</label>
+                    <input type="date" id="date-naissance" name="date_naissance" value="<?= $usersInfos['date_naissance_utilisateur'] ?>">
+                </div>
+                <div class="form-group">
+                    <label for="localisation">Localisation</label>
+                    <input type="text" id="localisation" name="localisation" value="<?= $usersInfos['localisation_utilisateur'] ?>">
+                </div>
+                <div class="form-group">
+                    <label for="diplome">Diplôme</label>
+                    <input type="text" id="diplome" name="diplome" value="<?= $usersInfos['diplome_utilisateur'] ?>">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" value="<?= $usersInfos['mail_utilisateur'] ?>">
+                </div>
+                <div class="buttons">
+                    <button type="submit" name="validate" class="modify-button">Modifier</button>
+                    <button type="submit" class="delete-button"><a href="../public/suppression_profil.php" style='
+                        text-decoration: none;
+                        color: inherit;
+                        display: block;
+                        width: 100%;
+                        height: 100%;'>Supprimer</a></button>
+                </div>
+            </form>
+              <div class="form-group">
+            <form action="../actions/profilAction.php" Method="POST">
+                <label for="mot-de-passe">Mot de passe</label>
+                <div class="password-container">
+                    <input type="password" id="mot-de-passe" value="" name = "mot_de_passe">
+                    <img src="../assets/image/pictogramme/oeil_mdp.svg" alt="toggle password visibility" id="toggle-mot-de-passe">
+                </div>
+                </div>
+                <div class="form-group">
+                    <label for="confirmation">Confirmation mot de passe</label>
+                    <div class="password-container">
+                        <input type="password" id="confirmation" value="" name="confirmation">
+                        <img src="../assets/image/pictogramme/oeil_mdp.svg" alt="toggle password visibility" id="toggle-confirmation">
                     </div>
-                    <div class="form-group">
-                        <label for="prenom">Prénom</label>
-                        <input type="text" id="prenom" value="Prénom enregistré">
-                    </div>
-                    <div class="form-group">
-                        <label for="date-naissance">Date de naissance</label>
-                        <input type="date" id="date-naissance" value="2000-01-01">
-                    </div>
-                    <div class="form-group">
-                        <label for="localisation">Localisation</label>
-                        <input type="text" id="localisation" value="Localisation enregistrée">
-                    </div>
-                    <div class="form-group">
-                        <label for="diplome">Diplôme</label>
-                        <input type="text" id="diplome" value="Diplôme enregistré">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" value="email@enregistre.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="mot-de-passe">Mot de passe</label>
-                        <div class="password-container">
-                            <input type="password" id="mot-de-passe" value="password">
-                            <img src="../assets/image/pictogramme/oeil_mdp.svg" alt="toggle password visibility" id="toggle-mot-de-passe">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="confirmation">Confirmation mot de passe</label>
-                        <div class="password-container">
-                            <input type="password" id="confirmation" value="password">
-                            <img src="../assets/image/pictogramme/oeil_mdp.svg" alt="toggle password visibility" id="toggle-confirmation">
-                        </div>
-                    </div>
-                    <div class="buttons">
-                        <button type="button" class="modify-button">Modifier</button>
-                        <button type="button" class="delete-button">Supprimer</button>
-                    </div>
-                </form>
+                </div>
+                <div class="buttons">
+                    <button type="submit" name="validate_mdp" class="modify-button">Modifier</button>
+                </div>
+            </form> 
             </div>
         </section>
     </main>

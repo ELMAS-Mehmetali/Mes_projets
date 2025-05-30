@@ -41,7 +41,7 @@
             <ul>
                 <li><a href="./mon_profil_coach.php">MON PROFIL</a></li>
                 <li><a href="./mes_seances_coach.php">MES SÉANCES</a></li>
-                <li><a href="./mes_recettes_coach.php">MES RECETTES</a><img src="../assets/image/pictrogramme/fleche_profil_vert.svg" alt="flèche"></li>
+                <li><a href="./mes_recettes_coach.php">MES RECETTES</a><img src="../assets/image/pictogramme/fleche_profil_vert.svg" alt="flèche"></li>
                 <li><a href="./deconnexion.php">DÉCONNEXION</a></li>
             </ul>
         </aside>
@@ -114,7 +114,7 @@
     <footer>
         <div class="navbar_foot">
             <ul>
-                <li><a href="./index.php">ACCUEIL</a></li>
+                <li><a href="../index.php">ACCUEIL</a></li>
                 <li><a href="./a_propos.php">À PROPOS</a></li>
                 <li><a href="./seances.php">SÉANCES</a></li>
                 <li><a href="./nutrition.php">NUTRITION</a></li>
@@ -132,10 +132,10 @@
         </div>
         <div class="contact">
             <div class="picto">
-                <a href="./lien_x_a_mettre"><img src="../assets/image/pictrogramme/picto_X.svg" alt="picto_X"></a>
-                <a href="./lien_insta_a_mettre"><img src="../assets/image/pictrogramme/picto_insta.svg" alt="picto_insta"></a>
-                <a href="./lien_tiktok_a_mettre"><img src="../assets/image/pictrogramme/picto_tiktok.svg" alt="picto_tiktok"></a>
-                <a href="./lien_whatsapp_a_mettre"><img src="../assets/image/pictrogramme/picto_whatsapp.svg" alt="picto_whatsapp"></a>
+                <a href="./lien_x_a_mettre"><img src="../assets/image/pictogramme/picto_X.svg" alt="picto_X"></a>
+                <a href="./lien_insta_a_mettre"><img src="../assets/image/pictogramme/picto_insta.svg" alt="picto_insta"></a>
+                <a href="./lien_tiktok_a_mettre"><img src="../assets/image/pictogramme/picto_tiktok.svg" alt="picto_tiktok"></a>
+                <a href="./lien_whatsapp_a_mettre"><img src="../assets/image/pictogramme/picto_whatsapp.svg" alt="picto_whatsapp"></a>
             </div>
             <div class="coordonnees">
                 <p>+336 16 04 27 82 </p>
