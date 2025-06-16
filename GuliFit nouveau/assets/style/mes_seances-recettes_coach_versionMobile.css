@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------HEADER STYLE------------------------------- */
+
+#head {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.7vh 2.7vh;
+}
+
+.menu-burger {
+    position: relative;
+    width: 5.4vh;
+    height: 4.3vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-burger span {
+    position: absolute;
+    width: 100%;
+    height: 0.9vh;
+    background-color: #44B491;
+    border-radius: 0.4vh;
+}
+
+.menu-burger span:nth-child(1) {
+    top: 0;
+    left: 50%;
+}
+.menu-burger span:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.menu-burger span:nth-child(3) {
+    bottom: 0;
+    left: 50%;
+}
+
+#logo img {
+    display: flex;
+    justify-content: center;
+    width: 20.2vh;
+    height: auto;
+}
+
+.navbar {
+    display: none;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.7vh;
+}
+
+#login a{
+    text-decoration: none;
+    color: #44B491;
+    font-family: 'Bebas Neue';
+    font-size: 2.5rem;
+    padding-right: 1rem;
+}
+
+/* ----------------------------SECTION PAGE_HEADER------------------------------- */
+
+.page_header{
+    display: none;
+}
+
+/* ----------------------------MISE EN PAGE GENERALE------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ----------------------------MISE EN PAGE ASIDE------------------------------- */
+
+.menu {
+    display: none;
+}
+
+/* ----------------------------SECTION PUBLICATIONS CONTENUS------------------------------- */
+
+.contenu-publications{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100vh;
+}
+
+.contenu-publications h2{
+    padding: 1rem;
+    padding-left: 2rem;
+    font-family: 'Poppins';
+    color: #44B491;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.publication-list li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    list-style-type: none;
+    border-radius: 0.5rem;
+}
+
+.publication-list span{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: 'inter';
+    width: 300px;
+}
+
+.publication-list span::first-letter{
+    text-transform: uppercase;
+}
+
+.publication-title{
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 600;
+    background-color: #44b49181;
+    /* color: #0E447E; */
+    border-radius: 0.5rem;
+}
+
+.publication-list button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #0E447E;
+    cursor: pointer;
+}
+
+.publication-list a{
+    text-decoration: none;
+    background-color: #0E447E;
+    border-radius: 0.5rem;
+}
+
+/* ----------------------------SECTION PUBLICITÉ------------------------------- */
+
+.publicité{
+    display: none;
+}
+
+/* ----------------------------SECTION FOOTER------------------------------- */
+
+footer{
+    display: none;
+}

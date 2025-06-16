@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------HEADER STYLE------------------------------- */
+
+#head {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.7vh 2.7vh;
+}
+
+.menu-burger {
+    position: relative;
+    width: 5.4vh;
+    height: 4.3vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-burger span {
+    position: absolute;
+    width: 100%;
+    height: 0.9vh;
+    background-color: #44B491;
+    border-radius: 0.4vh;
+}
+
+.menu-burger span:nth-child(1) {
+    top: 0;
+    left: 50%;
+}
+.menu-burger span:nth-child(2) {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.menu-burger span:nth-child(3) {
+    bottom: 0;
+    left: 50%;
+}
+
+#logo img {
+    display: flex;
+    justify-content: center;
+    width: 20.2vh;
+    height: auto;
+}
+
+.navbar {
+    display: none;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.7vh;
+}
+
+#login img {
+    width: 4.8vh;
+    height: auto;
+}
+
+/* ----------------------------SECTION PAGE_HEADER------------------------------- */
+
+.page_header{
+    display: none;
+}
+
+.contenu-politique{
+    padding: 1rem;
+}
+
+h2{
+    padding: 1.5rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* ----------------------------FOOTER STYLE------------------------------- */
+
+        footer{
+            display: none;
+        }
